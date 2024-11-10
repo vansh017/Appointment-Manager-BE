@@ -12,3 +12,6 @@ class OpenApiTags:
     @classmethod
     def get_tags_metadata(cls):
         return OpenApiTags._TAGS_METADATA
+
+
+ACCESS_TOKEN_EXPIRE_MINUTES = 30

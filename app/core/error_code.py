@@ -71,7 +71,8 @@ class ErrorMessages:
     PATIENT_NOT_FOUND_FACILITY = dict(code=2018, description="patient not found for given facility")
     USER_HAS_OTHER_ROLES = dict(code=2019, description="user already exists and has other roles assigned")
     ACCOUNT_INACTIVE = dict(code=2020, description="account is inactive")
-    DETAILS_AL_VERIFIED = dict(code=2011, description="details already verified")
+    DETAILS_AL_VERIFIED = dict(code=2021, description="details already verified")
+    USER_EXIST = dict(code=2022, description="user_already_exist")
 
     #   pharmacy: 21X1-21XX ----------------------------------------------------------------------------------------
 
