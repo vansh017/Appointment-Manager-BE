@@ -488,3 +488,5 @@ Traceback (most recent call last):
 core.error.TSServerError: ERROR(2022): user_already_exist
 2024-11-13 13:34:47,982: INFO => <module> | server started
 server started
+2024-11-13 13:45:23,696: INFO => <module> | server started
+server started
