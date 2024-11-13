@@ -100,6 +100,30 @@ class CRUDUser(CRUDBase[UserModel, UserSchema, UserSchema]):
             api_log.exception(f"exception in reset_failed_login: {e}")
             raise TSServerError()
 
+    @classmethod
+    def reset_invalid_otp_count(cls, db: Session, username):
+        """
+        Reset failed login counts for user in case of successful login
+        :param db:
+        :param username:
+        :return:
+        """
+        try:
+
+            query = update(UserModel) \
+                .filter(UserModel.username == username) \
+                .values(invalid_otp_count=0)
+
+            db.execute(query)
+
+            db.flush()
+
+        except TSServerError as err:
+            raise err
+        except Exception as e:
+            api_log.exception(f"exception in reset_invalid_otp: {e}")
+            raise TSServerError()
+
 
 
 User = CRUDUser(UserModel)

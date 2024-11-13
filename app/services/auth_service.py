@@ -1,14 +1,17 @@
 import base64
 from datetime import timedelta, datetime
+from fastapi import Request
+
 
 from sqlalchemy.orm import Session
 
 import crud
 from constants import ACCESS_TOKEN_EXPIRE_MINUTES, MAX_OTP_REQUEST_PER_HR
 from core import TSServerError, api_log
+from dao.otp import validate_otp_request
 from dao.user import create_user_dao, validate_user_login_and_create_otp
 from models import UserModel
-from schemas.api_schemas import CreateUser
+from schemas.api_schemas import CreateUser, ValidateOTP
 from utilities.methods import validate_strong_password, create_access_token
 
 
@@ -132,6 +135,40 @@ def _authenticate_user(username, password, db: Session):
 
     except TSServerError as dp_err:
         raise dp_err
+    except Exception as e:
+        api_log.error(f"failed to authenticate user: {e}", exc_info=True)
+        raise TSServerError()
+
+
+def authenticate_user(*args,**kwargs):
+    """
+
+    :param args:
+    :param kwargs:
+    :return:
+    """
+    try:
+        db: Session = kwargs["db"]
+        user_data: ValidateOTP = kwargs["user"]
+        request: Request = kwargs["request"]
+
+        user : UserModel = validate_otp_request(db=db, otp=user_data.otp, username=user_data.username)
+
+        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        current_time = datetime.now()
+
+        # Add 30 minutes
+        expires_at = current_time + timedelta(minutes=30)
+        expires_at = expires_at.strftime("%Y-%m-%d %H:%M:%S")
+        access_token = create_access_token(
+            data={"sub": str(user.id),
+                  "expires_at": expires_at}, expires_delta=access_token_expires
+        )
+        db.commit()
+
+        return {"access_token": access_token}
+    except TSServerError as err:
+        raise err
     except Exception as e:
         api_log.error(f"failed to authenticate user: {e}", exc_info=True)
         raise TSServerError()
