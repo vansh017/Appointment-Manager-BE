@@ -1,10 +1,13 @@
+import time
 from datetime import timedelta, datetime
+from functools import wraps
 from typing import Optional
 
 import bcrypt
 import jwt
 
 from constants import ACCESS_TOKEN_EXPIRE_MINUTES
+from core import api_log, TSServerError
 
 SECRET_KEY = "ghjlknmsftyugyiu"
 
@@ -54,3 +57,37 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm="HS256")
     return encoded_jwt
+
+
+def log_method_resp_time(msg: str, log_args=True):
+    """
+    Decorator prints args, response and time taken to execute for functions
+    :param msg: meaning message to print for target function
+    :param log_args: Set to false for not logging args passed to functions
+    :return:
+    """
+
+    def outer(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            try:
+                api_log.info(f"{msg}")
+                st = time.time()
+                if log_args:
+                    api_log.info(f"{func.__name__}; args: {args}, kwargs: {kwargs}")
+                resp = func(*args, **kwargs)
+                execution_time = time.time() - st
+                api_log.info(f"total time for {func.__name__}: {execution_time}")
+                str_resp = str(resp)
+                str_resp = str_resp[1:1000] if len(str_resp) > 1000 else str_resp
+                api_log.info(f"response from function: {func.__name__}: {str_resp}")
+                return resp
+            except TSServerError as err:
+                raise err
+            except Exception as e:
+                api_log.exception(f"exception in log_method_resp_time: {e}")
+                raise TSServerError()
+
+        return wrapper
+
+    return outer

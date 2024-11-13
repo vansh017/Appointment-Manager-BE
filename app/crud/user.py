@@ -74,6 +74,31 @@ class CRUDUser(CRUDBase[UserModel, UserSchema, UserSchema]):
             api_log.error(f"failed to get user: {e}")
             raise TSServerError()
 
+    @classmethod
+    def reset_failed_login(cls, db: Session, user_id):
+        """
+        Reset failed login counts for user in case of successful login
+        :param db:
+        :param user_id:
+        :return:
+        """
+        try:
+
+            api_log.info(f"resetting failed login count for user_id: {user_id}")
+
+            query = update(UserModel) \
+                .filter(UserModel.id == user_id) \
+                .values(failed_login_count=0)
+
+            db.execute(query)
+
+            db.flush()
+
+        except TSServerError as err:
+            raise err
+        except Exception as e:
+            api_log.exception(f"exception in reset_failed_login: {e}")
+            raise TSServerError()
 
 
 

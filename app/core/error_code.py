@@ -80,6 +80,8 @@ class ErrorMessages:
     # ---------------------------------------------------------------------------------------------------------------
 
     INTERNAL_SV_ERROR = dict(code=5001, description="internal server error")
+    BAD_REQUEST = dict(code=5002, description="invalid request format")
+
 
 
     # -----------------------------------------------------------------------------------------

@@ -494,3 +494,219 @@ server started
 server started
 2024-11-13 13:52:24,657: INFO => <module> | server started
 server started
+2024-11-13 14:30:29,931: INFO => <module> | server started
+server started
+2024-11-13 14:34:20,437: INFO => <module> | server started
+server started
+2024-11-13 14:35:39,888: INFO => <module> | server started
+server started
+2024-11-13 14:37:57,967: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:37:57,967: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7a4bcd3fb490>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7a4bcd3fb490>, 'user_id': 3}
+2024-11-13 14:37:57,973: INFO => wrapper | total time for total_otp_request: 0.0063092708587646484
+total time for total_otp_request: 0.0063092708587646484
+2024-11-13 14:37:57,974: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-13 14:37:57,975: ERROR => validate_user_login_and_create_otp | exception in validate_user_login: 'CRUDUser' object has no attribute 'reset_failed_login'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 136, in validate_user_login_and_create_otp
+    crud.User.reset_failed_login(db=db, user_id=user.id)
+AttributeError: 'CRUDUser' object has no attribute 'reset_failed_login'
+exception in validate_user_login: 'CRUDUser' object has no attribute 'reset_failed_login'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 136, in validate_user_login_and_create_otp
+    crud.User.reset_failed_login(db=db, user_id=user.id)
+AttributeError: 'CRUDUser' object has no attribute 'reset_failed_login'
+2024-11-13 14:37:57,976: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 136, in validate_user_login_and_create_otp
+    crud.User.reset_failed_login(db=db, user_id=user.id)
+AttributeError: 'CRUDUser' object has no attribute 'reset_failed_login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/auth.py", line 56, in api_authenticate_user
+    response = login_user(db=db,request=request,user=user)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 83, in login_user
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 78, in login_user
+    valid_user =_authenticate_user(
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 130, in _authenticate_user
+    raise dp_err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 114, in _authenticate_user
+    otp, total_attempts = validate_user_login_and_create_otp(db=db, user=user, password=password)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 151, in validate_user_login_and_create_otp
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 136, in validate_user_login_and_create_otp
+    crud.User.reset_failed_login(db=db, user_id=user.id)
+AttributeError: 'CRUDUser' object has no attribute 'reset_failed_login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/auth.py", line 56, in api_authenticate_user
+    response = login_user(db=db,request=request,user=user)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 83, in login_user
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 78, in login_user
+    valid_user =_authenticate_user(
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 130, in _authenticate_user
+    raise dp_err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/auth_service.py", line 114, in _authenticate_user
+    otp, total_attempts = validate_user_login_and_create_otp(db=db, user=user, password=password)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/user.py", line 151, in validate_user_login_and_create_otp
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-11-13 14:38:56,895: INFO => <module> | server started
+server started
+2024-11-13 14:39:12,884: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:39:12,886: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+2024-11-13 14:39:12,903: INFO => wrapper | total time for total_otp_request: 0.017198801040649414
+total time for total_otp_request: 0.017198801040649414
+2024-11-13 14:39:12,905: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-13 14:39:15,120: INFO => reset_failed_login | resetting failed login count for user_id: 3
+resetting failed login count for user_id: 3
+2024-11-13 14:39:16,022: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-13 14:39:16,027: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+2024-11-13 14:39:16,030: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-13 14:39:16,033: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+2024-11-13 14:39:16,042: INFO => wrapper | total time for invalidate_previous_otp: 0.00895237922668457
+total time for invalidate_previous_otp: 0.00895237922668457
+2024-11-13 14:39:16,043: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-13 14:39:16,055: INFO => wrapper | total time for create_otp: 0.027904510498046875
+total time for create_otp: 0.027904510498046875
+2024-11-13 14:39:16,056: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c591ecb8b0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c591ecb8b0>
+2024-11-13 14:39:17,642: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:39:17,644: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3dc0>, 'user_id': 3}
+2024-11-13 14:39:17,652: INFO => wrapper | total time for total_otp_request: 0.00717926025390625
+total time for total_otp_request: 0.00717926025390625
+2024-11-13 14:39:17,653: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-13 14:39:21,970: INFO => create_response | api response: {'status': 'success', 'data': None}
+api response: {'status': 'success', 'data': None}
+2024-11-13 14:40:31,354: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:40:31,354: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+2024-11-13 14:40:31,356: INFO => wrapper | total time for total_otp_request: 0.0020411014556884766
+total time for total_otp_request: 0.0020411014556884766
+2024-11-13 14:40:31,356: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-13 14:40:31,356: INFO => reset_failed_login | resetting failed login count for user_id: 3
+resetting failed login count for user_id: 3
+2024-11-13 14:40:31,358: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-13 14:40:31,359: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+2024-11-13 14:40:31,359: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-13 14:40:31,359: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+2024-11-13 14:40:31,361: INFO => wrapper | total time for invalidate_previous_otp: 0.0015053749084472656
+total time for invalidate_previous_otp: 0.0015053749084472656
+2024-11-13 14:40:31,361: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-13 14:40:31,363: INFO => wrapper | total time for create_otp: 0.004073381423950195
+total time for create_otp: 0.004073381423950195
+2024-11-13 14:40:31,363: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c591eca680>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c591eca680>
+2024-11-13 14:40:31,363: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:40:31,364: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c591fe3e50>, 'user_id': 3}
+2024-11-13 14:40:31,367: INFO => wrapper | total time for total_otp_request: 0.003443479537963867
+total time for total_otp_request: 0.003443479537963867
+2024-11-13 14:40:31,368: INFO => wrapper | response from function: total_otp_request: 2
+response from function: total_otp_request: 2
+2024-11-13 14:40:31,376: INFO => create_response | api response: {'status': 'success', 'data': None}
+api response: {'status': 'success', 'data': None}
+2024-11-13 14:41:35,520: INFO => <module> | server started
+server started
+2024-11-13 14:41:43,972: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:41:43,972: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+2024-11-13 14:41:43,976: INFO => wrapper | total time for total_otp_request: 0.0037300586700439453
+total time for total_otp_request: 0.0037300586700439453
+2024-11-13 14:41:43,976: INFO => wrapper | response from function: total_otp_request: 2
+response from function: total_otp_request: 2
+2024-11-13 14:41:43,976: INFO => reset_failed_login | resetting failed login count for user_id: 3
+resetting failed login count for user_id: 3
+2024-11-13 14:41:43,981: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-13 14:41:43,981: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+2024-11-13 14:41:43,981: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-13 14:41:43,981: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+2024-11-13 14:41:43,984: INFO => wrapper | total time for invalidate_previous_otp: 0.0026788711547851562
+total time for invalidate_previous_otp: 0.0026788711547851562
+2024-11-13 14:41:43,984: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-13 14:41:43,991: INFO => wrapper | total time for create_otp: 0.00970149040222168
+total time for create_otp: 0.00970149040222168
+2024-11-13 14:41:43,991: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7564e4964970>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7564e4964970>
+2024-11-13 14:41:43,991: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:41:43,991: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7a90>, 'user_id': 3}
+2024-11-13 14:41:43,993: INFO => wrapper | total time for total_otp_request: 0.002271413803100586
+total time for total_otp_request: 0.002271413803100586
+2024-11-13 14:41:43,994: INFO => wrapper | response from function: total_otp_request: 3
+response from function: total_otp_request: 3
+2024-11-13 14:41:44,000: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 2}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 2}}
+2024-11-13 14:42:01,480: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:42:01,480: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+2024-11-13 14:42:01,482: INFO => wrapper | total time for total_otp_request: 0.0018012523651123047
+total time for total_otp_request: 0.0018012523651123047
+2024-11-13 14:42:01,482: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-13 14:42:01,482: INFO => reset_failed_login | resetting failed login count for user_id: 3
+resetting failed login count for user_id: 3
+2024-11-13 14:42:01,483: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-13 14:42:01,483: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+2024-11-13 14:42:01,483: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-13 14:42:01,484: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+2024-11-13 14:42:01,484: INFO => wrapper | total time for invalidate_previous_otp: 0.0009469985961914062
+total time for invalidate_previous_otp: 0.0009469985961914062
+2024-11-13 14:42:01,485: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-13 14:42:01,486: INFO => wrapper | total time for create_otp: 0.0024454593658447266
+total time for create_otp: 0.0024454593658447266
+2024-11-13 14:42:01,486: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7564e49f0e20>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7564e49f0e20>
+2024-11-13 14:42:01,486: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-13 14:42:01,486: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7564e53e7b20>, 'user_id': 3}
+2024-11-13 14:42:01,487: INFO => wrapper | total time for total_otp_request: 0.0012822151184082031
+total time for total_otp_request: 0.0012822151184082031
+2024-11-13 14:42:01,488: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-13 14:42:01,491: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
