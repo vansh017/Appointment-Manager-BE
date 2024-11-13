@@ -490,3 +490,5 @@ core.error.TSServerError: ERROR(2022): user_already_exist
 server started
 2024-11-13 13:45:23,696: INFO => <module> | server started
 server started
+2024-11-13 13:46:59,316: INFO => <module> | server started
+server started
