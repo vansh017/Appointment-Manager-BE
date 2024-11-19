@@ -164,6 +164,9 @@ def authenticate_user(*args,**kwargs):
             data={"sub": str(user.id),
                   "expires_at": expires_at}, expires_delta=access_token_expires
         )
+
+
+
         db.commit()
 
         return {"access_token": access_token}

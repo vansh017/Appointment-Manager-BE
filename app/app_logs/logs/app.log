@@ -1110,3 +1110,15 @@ total time for validate_otp_request: 0.023564577102661133
 response from function: validate_otp_request: <models.user.UserModel object at 0x74ef21704d60>
 2024-11-13 16:49:12,578: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMTMgMTc6MTk6MTIiLCJleHAiOjE3MzE0OTg1NTJ9.BTAaw5Zg5p9hU3KShzp7hg8J1fzayuyMrEIU6qiJT3A'}}
 api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMTMgMTc6MTk6MTIiLCJleHAiOjE3MzE0OTg1NTJ9.BTAaw5Zg5p9hU3KShzp7hg8J1fzayuyMrEIU6qiJT3A'}}
+2024-11-19 15:57:23,310: INFO => <module> | server started
+server started
+2024-11-19 17:49:30,017: INFO => <module> | server started
+server started
+2024-11-19 17:54:20,768: INFO => <module> | server started
+server started
+2024-11-19 18:02:47,577: INFO => <module> | server started
+server started
+2024-11-19 18:03:50,453: INFO => <module> | server started
+server started
+2024-11-19 18:05:49,389: INFO => create_response | api response: {'status': 'success', 'data': {'user_id': 4}}
+api response: {'status': 'success', 'data': {'user_id': 4}}

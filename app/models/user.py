@@ -16,6 +16,7 @@ class UserModel(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     first_name = Column(VARCHAR(length=150), nullable=False)
     last_name = Column(VARCHAR(length=150), nullable=True)
+    gender = Column(VARCHAR(length=50), nullable=True)
     username = Column(VARCHAR(length=150), nullable=False, unique=True)
     email = Column(VARCHAR(length=150), nullable=False, unique=True)
     password = Column(VARCHAR(length=255), nullable=False)
