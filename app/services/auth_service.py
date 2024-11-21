@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 
 import crud
 from constants import ACCESS_TOKEN_EXPIRE_MINUTES, MAX_OTP_REQUEST_PER_HR
-from core import TSServerError, api_log
+from core import TSServerError, api_log, TSResponse
 from dao.otp import validate_otp_request
 from dao.user import create_user_dao, validate_user_login_and_create_otp
 from models import UserModel
@@ -165,11 +165,12 @@ def authenticate_user(*args,**kwargs):
                   "expires_at": expires_at}, expires_delta=access_token_expires
         )
 
-
-
         db.commit()
 
-        return {"access_token": access_token}
+        response = TSResponse({"access_token": access_token,
+                               "user_id": user.id})
+
+        return response
     except TSServerError as err:
         raise err
     except Exception as e:

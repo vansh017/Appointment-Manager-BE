@@ -86,7 +86,7 @@ def api_authenticate_user(*, request: Request,
 
         response = authenticate_user(request=request, db=db, user=user)
 
-        return create_response(data=response)
+        return create_response(data=response.data)
     except TSServerError as err:
         return create_error_response(status_code=err.status_code, err_dict=err.__dict__())
     except Exception as e:
