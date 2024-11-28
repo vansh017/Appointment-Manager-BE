@@ -1,3 +1,4 @@
+from datetime import datetime
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -17,6 +18,16 @@ class CreateUser(BaseModel):
     email : str
     password : str
     contact_number : str
+
+
+
+
+class CreateShop(BaseModel):
+
+    shop_name: str
+    start_time : datetime.time
+    end_time : datetime.time
+    address :
 
 
 class ValidateOTP(BaseModel):

@@ -1,11 +1,16 @@
 class OpenApiTags:
     AUTH = "auth"
+    SHOP = "shop"
 
 
     _TAGS_METADATA = [
         {
             "name": AUTH,
             "description": "Authorization Routes"
+        },
+        {
+            "name": SHOP,
+            "description": "shop Routes"
         },
     ]
 

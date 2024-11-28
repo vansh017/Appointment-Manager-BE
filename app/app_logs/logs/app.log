@@ -3140,3 +3140,223 @@ total time for get_user_data: 3.5614840984344482
 response from function: get_user_data: <core.response_handlers.TSResponse object at 0x76342491fa60>
 2024-11-21 09:56:49,062: INFO => create_response | api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
 api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-11-26 21:22:05,899: INFO => <module> | server started
+server started
+2024-11-26 21:22:14,012: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:22:14,012: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+2024-11-26 21:22:14,017: INFO => wrapper | total time for total_otp_request: 0.004934549331665039
+total time for total_otp_request: 0.004934549331665039
+2024-11-26 21:22:14,018: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-26 21:22:14,018: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-11-26 21:22:14,020: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-26 21:22:14,021: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+2024-11-26 21:22:14,021: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-26 21:22:14,021: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+2024-11-26 21:22:14,023: INFO => wrapper | total time for invalidate_previous_otp: 0.001953125
+total time for invalidate_previous_otp: 0.001953125
+2024-11-26 21:22:14,023: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-26 21:22:14,027: INFO => wrapper | total time for create_otp: 0.0059375762939453125
+total time for create_otp: 0.0059375762939453125
+2024-11-26 21:22:14,027: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee4bbbe0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee4bbbe0>
+2024-11-26 21:22:14,027: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:22:14,027: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418fa0>, 'user_id': 4}
+2024-11-26 21:22:14,029: INFO => wrapper | total time for total_otp_request: 0.0017299652099609375
+total time for total_otp_request: 0.0017299652099609375
+2024-11-26 21:22:14,029: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-26 21:22:14,036: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-11-26 21:22:49,398: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-11-26 21:22:49,398: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'otp': 441734, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'otp': 441734, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:22:49,400: INFO => wrapper | getting otp user
+getting otp user
+2024-11-26 21:22:49,400: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'otp': 441734, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'otp': 441734, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:22:49,402: INFO => wrapper | total time for get_otp_user: 0.0020012855529785156
+total time for get_otp_user: 0.0020012855529785156
+2024-11-26 21:22:49,403: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee320370>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee320370>]
+2024-11-26 21:22:49,404: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-11-26 21:22:49,404: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4198a0>, 'user_id': 4}
+2024-11-26 21:22:49,405: INFO => wrapper | total time for delete_previous_otp: 0.0013058185577392578
+total time for delete_previous_otp: 0.0013058185577392578
+2024-11-26 21:22:49,405: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-11-26 21:22:49,406: INFO => wrapper | total time for validate_otp_request: 0.0076296329498291016
+total time for validate_otp_request: 0.0076296329498291016
+2024-11-26 21:22:49,406: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x713eee3230a0>
+response from function: validate_otp_request: <models.user.UserModel object at 0x713eee3230a0>
+2024-11-26 21:22:49,408: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjE6NTI6NDkiLCJleHAiOjE3MzI2MzgxNjl9.7BK2Po0zQQssIvrm-eSpEE8Rn9CT6Yf7ijKI58c6xMY', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjE6NTI6NDkiLCJleHAiOjE3MzI2MzgxNjl9.7BK2Po0zQQssIvrm-eSpEE8Rn9CT6Yf7ijKI58c6xMY', 'user_id': 4}}
+2024-11-26 21:22:49,415: INFO => wrapper | getting response
+getting response
+2024-11-26 21:22:49,415: INFO => wrapper | get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419900>, 'request': <starlette.requests.Request object at 0x713eee419060>, 'user_id': 4}
+get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419900>, 'request': <starlette.requests.Request object at 0x713eee419060>, 'user_id': 4}
+2024-11-26 21:22:49,418: INFO => wrapper | total time for get_user_data: 0.0032045841217041016
+total time for get_user_data: 0.0032045841217041016
+2024-11-26 21:22:49,418: INFO => wrapper | response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee4182e0>
+response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee4182e0>
+2024-11-26 21:22:49,418: INFO => create_response | api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-11-26 21:29:51,535: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:29:51,536: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+2024-11-26 21:29:51,537: INFO => wrapper | total time for total_otp_request: 0.0012917518615722656
+total time for total_otp_request: 0.0012917518615722656
+2024-11-26 21:29:51,537: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-26 21:29:51,537: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-11-26 21:29:51,538: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-26 21:29:51,538: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+2024-11-26 21:29:51,538: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-26 21:29:51,538: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+2024-11-26 21:29:51,539: INFO => wrapper | total time for invalidate_previous_otp: 0.0008859634399414062
+total time for invalidate_previous_otp: 0.0008859634399414062
+2024-11-26 21:29:51,539: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-26 21:29:51,540: INFO => wrapper | total time for create_otp: 0.0021491050720214844
+total time for create_otp: 0.0021491050720214844
+2024-11-26 21:29:51,541: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee322fb0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee322fb0>
+2024-11-26 21:29:51,541: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:29:51,541: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee418df0>, 'user_id': 4}
+2024-11-26 21:29:51,542: INFO => wrapper | total time for total_otp_request: 0.0010063648223876953
+total time for total_otp_request: 0.0010063648223876953
+2024-11-26 21:29:51,542: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-26 21:29:51,547: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-11-26 21:30:00,993: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-11-26 21:30:00,993: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'otp': 175408, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'otp': 175408, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:30:00,996: INFO => wrapper | getting otp user
+getting otp user
+2024-11-26 21:30:00,997: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'otp': 175408, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'otp': 175408, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:30:01,001: INFO => wrapper | total time for get_otp_user: 0.0036902427673339844
+total time for get_otp_user: 0.0036902427673339844
+2024-11-26 21:30:01,001: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee321ab0>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee321ab0>]
+2024-11-26 21:30:01,004: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-11-26 21:30:01,005: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4192d0>, 'user_id': 4}
+2024-11-26 21:30:01,007: INFO => wrapper | total time for delete_previous_otp: 0.0024747848510742188
+total time for delete_previous_otp: 0.0024747848510742188
+2024-11-26 21:30:01,007: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-11-26 21:30:01,008: INFO => wrapper | total time for validate_otp_request: 0.014449834823608398
+total time for validate_otp_request: 0.014449834823608398
+2024-11-26 21:30:01,008: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x713eee3222f0>
+response from function: validate_otp_request: <models.user.UserModel object at 0x713eee3222f0>
+2024-11-26 21:30:01,015: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjI6MDA6MDEiLCJleHAiOjE3MzI2Mzg2MDF9.2n3HvAwqAOSWkweU26EGU6zxqu4pqVFnj8rDI_nkMWY', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjI6MDA6MDEiLCJleHAiOjE3MzI2Mzg2MDF9.2n3HvAwqAOSWkweU26EGU6zxqu4pqVFnj8rDI_nkMWY', 'user_id': 4}}
+2024-11-26 21:30:01,028: INFO => wrapper | getting response
+getting response
+2024-11-26 21:30:01,028: INFO => wrapper | get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4196f0>, 'request': <starlette.requests.Request object at 0x713eee419540>, 'user_id': 4}
+get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee4196f0>, 'request': <starlette.requests.Request object at 0x713eee419540>, 'user_id': 4}
+2024-11-26 21:30:01,032: INFO => wrapper | total time for get_user_data: 0.0036880970001220703
+total time for get_user_data: 0.0036880970001220703
+2024-11-26 21:30:01,033: INFO => wrapper | response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee418f10>
+response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee418f10>
+2024-11-26 21:30:01,033: INFO => create_response | api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-11-26 21:44:35,809: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:44:35,809: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+2024-11-26 21:44:35,811: INFO => wrapper | total time for total_otp_request: 0.0014750957489013672
+total time for total_otp_request: 0.0014750957489013672
+2024-11-26 21:44:35,811: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-26 21:44:35,811: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-11-26 21:44:35,812: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-26 21:44:35,812: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+2024-11-26 21:44:35,812: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-26 21:44:35,812: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+2024-11-26 21:44:35,813: INFO => wrapper | total time for invalidate_previous_otp: 0.0007266998291015625
+total time for invalidate_previous_otp: 0.0007266998291015625
+2024-11-26 21:44:35,813: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-26 21:44:35,814: INFO => wrapper | total time for create_otp: 0.0021979808807373047
+total time for create_otp: 0.0021979808807373047
+2024-11-26 21:44:35,814: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee36c3d0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x713eee36c3d0>
+2024-11-26 21:44:35,815: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-26 21:44:35,815: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee419690>, 'user_id': 4}
+2024-11-26 21:44:35,815: INFO => wrapper | total time for total_otp_request: 0.000751495361328125
+total time for total_otp_request: 0.000751495361328125
+2024-11-26 21:44:35,815: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-26 21:44:35,819: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-11-26 21:44:45,695: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-11-26 21:44:45,695: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'otp': 894865, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'otp': 894865, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:44:45,697: INFO => wrapper | getting otp user
+getting otp user
+2024-11-26 21:44:45,697: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'otp': 894865, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'otp': 894865, 'username': 'hirubhai@rover.info'}
+2024-11-26 21:44:45,699: INFO => wrapper | total time for get_otp_user: 0.0014615058898925781
+total time for get_otp_user: 0.0014615058898925781
+2024-11-26 21:44:45,699: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee36d090>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x713eee36d090>]
+2024-11-26 21:44:45,700: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-11-26 21:44:45,700: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee3212a0>, 'user_id': 4}
+2024-11-26 21:44:45,701: INFO => wrapper | total time for delete_previous_otp: 0.0008399486541748047
+total time for delete_previous_otp: 0.0008399486541748047
+2024-11-26 21:44:45,701: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-11-26 21:44:45,701: INFO => wrapper | total time for validate_otp_request: 0.006310224533081055
+total time for validate_otp_request: 0.006310224533081055
+2024-11-26 21:44:45,702: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x713eee36c8b0>
+response from function: validate_otp_request: <models.user.UserModel object at 0x713eee36c8b0>
+2024-11-26 21:44:45,706: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjI6MTQ6NDUiLCJleHAiOjE3MzI2Mzk0ODV9.Zkj0DvMM7vjBMh5sWnUgB12CVLFI_PXLYwnyMsV5vbo', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjYgMjI6MTQ6NDUiLCJleHAiOjE3MzI2Mzk0ODV9.Zkj0DvMM7vjBMh5sWnUgB12CVLFI_PXLYwnyMsV5vbo', 'user_id': 4}}
+2024-11-26 21:44:45,712: INFO => wrapper | getting response
+getting response
+2024-11-26 21:44:45,712: INFO => wrapper | get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee323160>, 'request': <starlette.requests.Request object at 0x713eee321c30>, 'user_id': 4}
+get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x713eee323160>, 'request': <starlette.requests.Request object at 0x713eee321c30>, 'user_id': 4}
+2024-11-26 21:44:45,714: INFO => wrapper | total time for get_user_data: 0.001522064208984375
+total time for get_user_data: 0.001522064208984375
+2024-11-26 21:44:45,714: INFO => wrapper | response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee321e40>
+response from function: get_user_data: <core.response_handlers.TSResponse object at 0x713eee321e40>
+2024-11-26 21:44:45,714: INFO => create_response | api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-11-28 12:21:47,125: INFO => <module> | server started
+server started
