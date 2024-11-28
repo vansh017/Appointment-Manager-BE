@@ -3360,3 +3360,239 @@ response from function: get_user_data: <core.response_handlers.TSResponse object
 api response: {'status': 'success', 'data': {'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
 2024-11-28 12:21:47,125: INFO => <module> | server started
 server started
+2024-11-28 14:27:12,581: INFO => <module> | server started
+server started
+2024-11-28 14:28:34,325: INFO => <module> | server started
+server started
+2024-11-28 14:29:05,029: INFO => <module> | server started
+server started
+2024-11-28 15:50:36,873: INFO => <module> | server started
+server started
+2024-11-28 16:50:47,491: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-28 16:50:47,494: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+2024-11-28 16:50:47,499: INFO => wrapper | total time for total_otp_request: 0.004688262939453125
+total time for total_otp_request: 0.004688262939453125
+2024-11-28 16:50:47,499: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-11-28 16:50:47,499: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-11-28 16:50:47,502: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-28 16:50:47,502: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+2024-11-28 16:50:47,502: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-28 16:50:47,503: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+2024-11-28 16:50:47,504: INFO => wrapper | total time for invalidate_previous_otp: 0.0014255046844482422
+total time for invalidate_previous_otp: 0.0014255046844482422
+2024-11-28 16:50:47,504: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-28 16:50:47,510: INFO => wrapper | total time for create_otp: 0.00720667839050293
+total time for create_otp: 0.00720667839050293
+2024-11-28 16:50:47,510: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x773336bc3df0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x773336bc3df0>
+2024-11-28 16:50:47,510: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-28 16:50:47,510: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7733375e3c70>, 'user_id': 4}
+2024-11-28 16:50:47,511: INFO => wrapper | total time for total_otp_request: 0.0013647079467773438
+total time for total_otp_request: 0.0013647079467773438
+2024-11-28 16:50:47,512: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-28 16:50:47,519: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-11-28 16:52:02,027: INFO => <module> | server started
+server started
+2024-11-28 16:52:07,480: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-28 16:52:07,481: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+2024-11-28 16:52:07,484: INFO => wrapper | total time for total_otp_request: 0.0034303665161132812
+total time for total_otp_request: 0.0034303665161132812
+2024-11-28 16:52:07,484: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-11-28 16:52:07,484: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-11-28 16:52:07,487: INFO => wrapper | creating otp for user
+creating otp for user
+2024-11-28 16:52:07,487: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+2024-11-28 16:52:07,487: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-11-28 16:52:07,487: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+2024-11-28 16:52:07,489: INFO => wrapper | total time for invalidate_previous_otp: 0.0015537738800048828
+total time for invalidate_previous_otp: 0.0015537738800048828
+2024-11-28 16:52:07,489: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-11-28 16:52:07,492: INFO => wrapper | total time for create_otp: 0.0050029754638671875
+total time for create_otp: 0.0050029754638671875
+2024-11-28 16:52:07,492: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c684bdec80>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x75c684bdec80>
+2024-11-28 16:52:07,492: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-11-28 16:52:07,492: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855d9690>, 'user_id': 4}
+2024-11-28 16:52:07,494: INFO => wrapper | total time for total_otp_request: 0.0017178058624267578
+total time for total_otp_request: 0.0017178058624267578
+2024-11-28 16:52:07,494: INFO => wrapper | response from function: total_otp_request: 2
+response from function: total_otp_request: 2
+2024-11-28 16:52:07,501: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 3}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 3}}
+2024-11-28 16:52:17,371: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-11-28 16:52:17,372: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-11-28 16:52:17,377: INFO => wrapper | getting otp user
+getting otp user
+2024-11-28 16:52:17,377: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-11-28 16:52:17,382: INFO => wrapper | total time for get_otp_user: 0.005420207977294922
+total time for get_otp_user: 0.005420207977294922
+2024-11-28 16:52:17,383: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x75c684a4c640>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x75c684a4c640>]
+2024-11-28 16:52:17,385: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-11-28 16:52:17,385: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x75c6855da7d0>, 'user_id': 4}
+2024-11-28 16:52:17,387: INFO => wrapper | total time for delete_previous_otp: 0.0017588138580322266
+total time for delete_previous_otp: 0.0017588138580322266
+2024-11-28 16:52:17,387: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-11-28 16:52:17,387: INFO => wrapper | total time for validate_otp_request: 0.015425443649291992
+total time for validate_otp_request: 0.015425443649291992
+2024-11-28 16:52:17,387: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x75c684a4c520>
+response from function: validate_otp_request: <models.user.UserModel object at 0x75c684a4c520>
+2024-11-28 16:52:17,393: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjggMTc6MjI6MTciLCJleHAiOjE3MzI3OTQ3Mzd9.-U71Z_TJAj3Ykf41kse3SDDZoQmPLHekvpTNW38DMfI', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTEtMjggMTc6MjI6MTciLCJleHAiOjE3MzI3OTQ3Mzd9.-U71Z_TJAj3Ykf41kse3SDDZoQmPLHekvpTNW38DMfI', 'user_id': 4}}
+2024-11-28 16:56:50,579: INFO => <module> | server started
+server started
+2024-11-28 16:57:10,623: INFO => <module> | server started
+server started
+2024-11-28 16:58:24,503: INFO => wrapper | getting response
+getting response
+2024-11-28 16:58:24,504: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7016c5d1ee90>, 'request': <starlette.requests.Request object at 0x7016c5d1f910>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:57:11', modified_on='2024-11-28 16:57:11'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:57:11', modified_on='2024-11-28 16:57:11'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7016c5d1ee90>, 'request': <starlette.requests.Request object at 0x7016c5d1f910>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:57:11', modified_on='2024-11-28 16:57:11'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:57:11', modified_on='2024-11-28 16:57:11'))}
+2024-11-28 16:58:40,933: INFO => <module> | server started
+server started
+2024-11-28 16:58:52,161: INFO => wrapper | getting response
+getting response
+2024-11-28 16:58:52,162: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7dbdb80e69b0>, 'request': <starlette.requests.Request object at 0x7dbdb80e5ea0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:58:42', modified_on='2024-11-28 16:58:42'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:58:42', modified_on='2024-11-28 16:58:42'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7dbdb80e69b0>, 'request': <starlette.requests.Request object at 0x7dbdb80e5ea0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:58:42', modified_on='2024-11-28 16:58:42'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:58:42', modified_on='2024-11-28 16:58:42'))}
+2024-11-28 16:59:03,005: ERROR => create | failed to create record in DB: 'created_on' is an invalid keyword argument for ShopMasterModel
+failed to create record in DB: 'created_on' is an invalid keyword argument for ShopMasterModel
+2024-11-28 16:59:32,805: INFO => <module> | server started
+server started
+2024-11-28 16:59:38,292: INFO => wrapper | getting response
+getting response
+2024-11-28 16:59:38,292: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x764fe5b8c670>, 'request': <starlette.requests.Request object at 0x764fe5b8e7d0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:59:33', modified_on='2024-11-28 16:59:33'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:59:33', modified_on='2024-11-28 16:59:33'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x764fe5b8c670>, 'request': <starlette.requests.Request object at 0x764fe5b8e7d0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 16:59:33', modified_on='2024-11-28 16:59:33'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 16:59:33', modified_on='2024-11-28 16:59:33'))}
+2024-11-28 16:59:38,322: ERROR => create | failed to create record in DB: 'created_on' is an invalid keyword argument for ShopMasterModel
+failed to create record in DB: 'created_on' is an invalid keyword argument for ShopMasterModel
+2024-11-28 16:59:38,322: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/crud/base.py", line 111, in create
+    record = self.model(**record_dict)
+  File "<string>", line 4, in __init__
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/decl_base.py", line 2177, in _declarative_constructor
+    raise TypeError(
+TypeError: 'created_on' is an invalid keyword argument for ShopMasterModel
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 39, in api_authenticate_user
+    response = _create_shop(db=db,request=request,user_id=user_id,shop_details=shop_details)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 36, in _create_shop
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 31, in _create_shop
+    shop = create_shop(db=db, shop_details=shop_details,user=user)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 38, in create_shop
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 33, in create_shop
+    shop = crud.Shop.create(db=db, record=shop_obj)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/crud/base.py", line 117, in create
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/crud/base.py", line 111, in create
+    record = self.model(**record_dict)
+  File "<string>", line 4, in __init__
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/state.py", line 571, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/state.py", line 569, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/orm/decl_base.py", line 2177, in _declarative_constructor
+    raise TypeError(
+TypeError: 'created_on' is an invalid keyword argument for ShopMasterModel
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 39, in api_authenticate_user
+    response = _create_shop(db=db,request=request,user_id=user_id,shop_details=shop_details)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 36, in _create_shop
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 31, in _create_shop
+    shop = create_shop(db=db, shop_details=shop_details,user=user)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 38, in create_shop
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 33, in create_shop
+    shop = crud.Shop.create(db=db, record=shop_obj)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/crud/base.py", line 117, in create
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-11-28 17:00:14,278: INFO => <module> | server started
+server started
+2024-11-28 17:00:19,966: INFO => wrapper | getting response
+getting response
+2024-11-28 17:00:19,966: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x77d00c2e4ee0>, 'request': <starlette.requests.Request object at 0x77d00c2e4df0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:00:15', modified_on='2024-11-28 17:00:15'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:00:15', modified_on='2024-11-28 17:00:15'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x77d00c2e4ee0>, 'request': <starlette.requests.Request object at 0x77d00c2e4df0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:00:15', modified_on='2024-11-28 17:00:15'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:00:15', modified_on='2024-11-28 17:00:15'))}
+2024-11-28 17:00:36,078: INFO => <module> | server started
+server started
+2024-11-28 17:01:37,648: INFO => <module> | server started
+server started
+2024-11-28 17:01:43,362: INFO => wrapper | getting response
+getting response
+2024-11-28 17:01:43,363: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7664115d8df0>, 'request': <starlette.requests.Request object at 0x7664115d8eb0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:01:38', modified_on='2024-11-28 17:01:38'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:01:38', modified_on='2024-11-28 17:01:38'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7664115d8df0>, 'request': <starlette.requests.Request object at 0x7664115d8eb0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:01:38', modified_on='2024-11-28 17:01:38'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:01:38', modified_on='2024-11-28 17:01:38'))}
+2024-11-28 17:01:49,200: INFO => wrapper | total time for _create_shop: 5.836936950683594
+total time for _create_shop: 5.836936950683594
+2024-11-28 17:01:49,201: INFO => wrapper | response from function: _create_shop: <core.response_handlers.TSResponse object at 0x766410b20280>
+response from function: _create_shop: <core.response_handlers.TSResponse object at 0x766410b20280>
+2024-11-28 17:01:49,201: INFO => create_response | api response: {'status': 'success', 'data': <models.shop_master.ShopMasterModel object at 0x766410b22ad0>}
+api response: {'status': 'success', 'data': <models.shop_master.ShopMasterModel object at 0x766410b22ad0>}
+2024-11-28 17:23:07,788: INFO => <module> | server started
+server started
+2024-11-28 17:23:20,368: INFO => wrapper | getting response
+getting response
+2024-11-28 17:23:20,368: INFO => wrapper | _create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7141d9d8a620>, 'request': <starlette.requests.Request object at 0x7141d9d8a9e0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop 2", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:23:08', modified_on='2024-11-28 17:23:08'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:23:08', modified_on='2024-11-28 17:23:08'))}
+_create_shop; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7141d9d8a620>, 'request': <starlette.requests.Request object at 0x7141d9d8a9e0>, 'user_id': 4, 'shop_details': CreateShop(shop_name="Hiru's Shop 2", start_time=datetime.time(10, 22), end_time=datetime.time(11, 22), address=AddressSchema(address_line_1='adsf', address_line_2='1', city='dsaf', state='dsf', zipcode='56431', created_on='2024-11-28 17:23:08', modified_on='2024-11-28 17:23:08'), contact_details=ContactSchema(email='hirus@rover.info', cellphone='9845617594', workphone='', fax='', website='', created_on='2024-11-28 17:23:08', modified_on='2024-11-28 17:23:08'))}
+2024-11-28 17:23:20,394: INFO => wrapper | total time for _create_shop: 0.0258481502532959
+total time for _create_shop: 0.0258481502532959
+2024-11-28 17:23:20,394: INFO => wrapper | response from function: _create_shop: <core.response_handlers.TSResponse object at 0x7141d930f610>
+response from function: _create_shop: <core.response_handlers.TSResponse object at 0x7141d930f610>
+2024-11-28 17:23:20,394: INFO => create_response | api response: {'status': 'success', 'data': <models.shop_master.ShopMasterModel object at 0x7141d930fd00>}
+api response: {'status': 'success', 'data': <models.shop_master.ShopMasterModel object at 0x7141d930fd00>}
+2024-11-28 17:24:21,538: INFO => <module> | server started
+server started

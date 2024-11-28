@@ -8,6 +8,8 @@ from sqlalchemy.orm import Session
 from constants import OpenApiTags
 from api.api_v1.deps import get_db
 from core import api_log, create_response, create_error_response, TSServerError
+from schemas.api_schemas import CreateShop
+from services.shop_service import _create_shop
 from services.user_service import get_user_data
 
 shop = APIRouter(
@@ -22,17 +24,19 @@ shop = APIRouter(
            description="Creating shop")
 def api_authenticate_user(*, request: Request,
                           user_id: int = Query(default=None),
-                          db: Session = Depends(get_db)):
+                          db: Session = Depends(get_db),
+                          shop_details : CreateShop):
     """
     Login route for user ... sends otp on user's email
     the user will be marked as in active when he/she enters wrong password multiple times
+    :param shop_details:
     :param user_id:
     :param request:
     :param db:
     :return:
     """
     try:
-        response = get_user_data(db=db,request=request,user_id=user_id)
+        response = _create_shop(db=db,request=request,user_id=user_id,shop_details=shop_details)
 
         return create_response(response.data)
 

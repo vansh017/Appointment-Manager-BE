@@ -48,7 +48,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
 
         except Exception as e:
             api_log.exception(f"failed to retrieve id's for model: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
     def get(self, id: int, db: Session) -> List[ModelType]:
         """
@@ -63,7 +63,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
             return record_list
         except Exception as e:
             api_log.error(f"failed to fetch data from DB: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
     def update(self, id: int, update_dict: dict, db: Session):
         """
@@ -90,14 +90,14 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
                 else:
                     api_log.debug(f"record: {dict(record)} has not attribute: {key};"
                                   f" Aborting transaction")
-                    raise FOServerError()
+                    raise TSServerError()
 
             db.flush([record])
             return record
 
         except Exception as e:
             api_log.error(f"failed to update in records in DB: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
     def create(self, db: Session, record: CreateSchemaType) -> ModelType:
         """
@@ -114,7 +114,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
             return record
         except Exception as e:
             api_log.error(f"failed to create record in DB: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
     def add_multiple_records(self,db: Session, objects: List[CreateSchemaType]):
         """
@@ -129,7 +129,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
             db.flush(db_records)
         except Exception as e:
             api_log.error(f"failed to create records in DB: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
     def get_by_filter(self, db: Session, value, attribute, search_type="exact_search"):
         """
@@ -157,7 +157,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):
 
         except Exception as e:
             api_log.error(f"failed to create record in DB: {e}")
-            raise FOServerError()
+            raise TSServerError()
 
 
 

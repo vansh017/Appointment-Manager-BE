@@ -1,7 +1,9 @@
-from datetime import datetime
+from datetime import datetime, time
 from enum import Enum
 
 from pydantic import BaseModel, Field
+
+from schemas import AddressSchema, ContactSchema
 
 
 class GenderEnum(str, Enum):
@@ -25,9 +27,11 @@ class CreateUser(BaseModel):
 class CreateShop(BaseModel):
 
     shop_name: str
-    start_time : datetime.time
-    end_time : datetime.time
-    address :
+    start_time : time
+    end_time : time
+    address : AddressSchema
+    contact_details: ContactSchema
+
 
 
 class ValidateOTP(BaseModel):
