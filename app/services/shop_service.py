@@ -29,6 +29,7 @@ def _create_shop(*args,**kwargs):
                 status_code=200)
 
         shop = create_shop(db=db, shop_details=shop_details,user=user)
+        db.commit()
 
         return TSResponse(shop)
 

@@ -91,6 +91,7 @@ def create_unique_otp(db: Session):
     #     otp_ls = otp_ls[0]
 
     otp = generate_otp()
+    otp = 123456
 
     # while otp in [ot.otp for ot in otp_ls]:
     #     otp = generate_otp()

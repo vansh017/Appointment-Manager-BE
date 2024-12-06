@@ -11,5 +11,5 @@ class CatalogModel(Base, TimestampMixin):
     id = Column(Integer, primary_key=True, autoincrement=True)
     item_name = Column(VARCHAR(255), nullable=False)
     price = Column(Integer, nullable=False)
-    expected_time = Column(Time, nullable=False)
+    expected_time = Column(Time, nullable=True)
     shop_id = Column(Integer, ForeignKey(ShopMasterModel.id), nullable=False)

@@ -1,9 +1,10 @@
 from datetime import datetime, time
 from enum import Enum
+from typing import List
 
 from pydantic import BaseModel, Field
 
-from schemas import AddressSchema, ContactSchema
+from schemas import AddressSchema, ContactSchema, CatalogSchema
 
 
 class GenderEnum(str, Enum):
@@ -31,6 +32,7 @@ class CreateShop(BaseModel):
     end_time : time
     address : AddressSchema
     contact_details: ContactSchema
+    catalog_list : List[CatalogSchema]
 
 
 
