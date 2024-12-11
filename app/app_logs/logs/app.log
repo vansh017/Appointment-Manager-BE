@@ -7194,3 +7194,1189 @@ total time for _get_shops: 0.005009651184082031
 response from function: _get_shops: <core.response_handlers.TSResponse object at 0x72eac62661a0>
 2024-12-11 15:16:40,707: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
 api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-11 15:32:33,661: INFO => <module> | server started
+server started
+2024-12-11 15:40:36,218: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:40:36,219: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c66410>, 'request': <starlette.requests.Request object at 0x7fea12c64700>, 'user_id': 8, 'role': None, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c66410>, 'request': <starlette.requests.Request object at 0x7fea12c64700>, 'user_id': 8, 'role': None, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:40:36,315: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 2009, 'error_description': 'user not found'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 74, in get_shops
+    response = _get_shops(db=db,request=request,user_id=user_id,role=role,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 96, in _get_shops
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 64, in _get_shops
+    raise TSServerError(
+core.error.TSServerError: ERROR(2009): user not found
+api response: {'status': 'failure', 'data': {'error_code': 2009, 'error_description': 'user not found'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 74, in get_shops
+    response = _get_shops(db=db,request=request,user_id=user_id,role=role,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 96, in _get_shops
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 64, in _get_shops
+    raise TSServerError(
+core.error.TSServerError: ERROR(2009): user not found
+2024-12-11 15:40:36,327: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:40:36,327: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea13809870>, 'request': <starlette.requests.Request object at 0x7fea12c647c0>, 'user_id': 8, 'role': None, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea13809870>, 'request': <starlette.requests.Request object at 0x7fea12c647c0>, 'user_id': 8, 'role': None, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:40:36,331: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 2009, 'error_description': 'user not found'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 74, in get_shops
+    response = _get_shops(db=db,request=request,user_id=user_id,role=role,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 96, in _get_shops
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 64, in _get_shops
+    raise TSServerError(
+core.error.TSServerError: ERROR(2009): user not found
+api response: {'status': 'failure', 'data': {'error_code': 2009, 'error_description': 'user not found'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 74, in get_shops
+    response = _get_shops(db=db,request=request,user_id=user_id,role=role,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 86, in wrapper
+    raise err
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 96, in _get_shops
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 64, in _get_shops
+    raise TSServerError(
+core.error.TSServerError: ERROR(2009): user not found
+2024-12-11 15:43:50,805: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:43:50,806: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c64130>, 'request': <starlette.requests.Request object at 0x7fea12c64bb0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c64130>, 'request': <starlette.requests.Request object at 0x7fea12c64bb0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:43:50,816: INFO => wrapper | total time for _get_shops: 0.010132312774658203
+total time for _get_shops: 0.010132312774658203
+2024-12-11 15:43:50,816: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7fea12c64160>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7fea12c64160>
+2024-12-11 15:43:50,816: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-11 15:43:50,825: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:43:50,826: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c354e0>, 'request': <starlette.requests.Request object at 0x7fea12c641f0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c354e0>, 'request': <starlette.requests.Request object at 0x7fea12c641f0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:43:50,833: INFO => wrapper | total time for _get_shops: 0.006860494613647461
+total time for _get_shops: 0.006860494613647461
+2024-12-11 15:43:50,833: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7fea13701210>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7fea13701210>
+2024-12-11 15:43:50,833: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-11 15:56:58,099: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:56:58,100: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea13701210>, 'request': <starlette.requests.Request object at 0x7fea12c64040>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea13701210>, 'request': <starlette.requests.Request object at 0x7fea12c64040>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:56:58,104: ERROR => wrapper | exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+2024-12-11 15:56:58,105: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 15:56:58,110: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:56:58,111: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12b033a0>, 'request': <starlette.requests.Request object at 0x7fea12c36f80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12b033a0>, 'request': <starlette.requests.Request object at 0x7fea12c36f80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:56:58,112: ERROR => wrapper | exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+2024-12-11 15:56:58,113: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 15:57:28,946: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:57:28,946: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c37e50>, 'request': <starlette.requests.Request object at 0x7fea12c35ab0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7fea12c37e50>, 'request': <starlette.requests.Request object at 0x7fea12c35ab0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:57:28,949: ERROR => wrapper | exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+exception in log_method_resp_time: name 'role' is not defined
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+2024-12-11 15:57:28,950: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 155, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    if role =="shop_owner":
+NameError: name 'role' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 15:58:07,162: INFO => <module> | server started
+server started
+2024-12-11 15:58:10,520: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:58:10,521: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x727490631b10>, 'request': <starlette.requests.Request object at 0x727490633250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x727490631b10>, 'request': <starlette.requests.Request object at 0x727490633250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:58:10,583: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 15:58:10,584: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 15:58:10,590: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:58:10,591: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7274906b16c0>, 'request': <starlette.requests.Request object at 0x727490631a80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7274906b16c0>, 'request': <starlette.requests.Request object at 0x727490631a80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:58:10,593: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 15:58:10,594: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 15:58:36,711: INFO => <module> | server started
+server started
+2024-12-11 15:58:43,031: INFO => <module> | server started
+server started
+2024-12-11 15:58:55,252: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:58:55,252: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x74f39d5aaef0>, 'request': <starlette.requests.Request object at 0x74f39d5aacb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x74f39d5aaef0>, 'request': <starlette.requests.Request object at 0x74f39d5aacb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 15:59:15,242: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 15:59:15,243: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x74f39c1085b0>, 'request': <starlette.requests.Request object at 0x74f39cbf73d0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x74f39c1085b0>, 'request': <starlette.requests.Request object at 0x74f39cbf73d0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:00:09,092: INFO => <module> | server started
+server started
+2024-12-11 16:00:12,187: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:00:12,188: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235b10>, 'request': <starlette.requests.Request object at 0x7d1738237250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235b10>, 'request': <starlette.requests.Request object at 0x7d1738237250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:00:12,246: INFO => wrapper | total time for _get_shop_menu: 0.05872201919555664
+total time for _get_shop_menu: 0.05872201919555664
+2024-12-11 16:00:12,247: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17383d8700>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17383d8700>
+2024-12-11 16:00:12,247: INFO => create_response | api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382ff310>}]}
+api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382ff310>}]}
+2024-12-11 16:00:12,250: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:00:12,251: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235c00>, 'request': <starlette.requests.Request object at 0x7d1738235ba0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235c00>, 'request': <starlette.requests.Request object at 0x7d1738235ba0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:00:12,256: INFO => wrapper | total time for _get_shop_menu: 0.005350351333618164
+total time for _get_shop_menu: 0.005350351333618164
+2024-12-11 16:00:12,256: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17382ff1c0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17382ff1c0>
+2024-12-11 16:00:12,256: INFO => create_response | api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382fe7a0>}]}
+api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382fe7a0>}]}
+2024-12-11 16:04:43,175: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:04:43,176: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d17382fefe0>, 'request': <starlette.requests.Request object at 0x7d17382fee30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d17382fefe0>, 'request': <starlette.requests.Request object at 0x7d17382fee30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:04:43,180: INFO => wrapper | total time for _get_shop_menu: 0.003984212875366211
+total time for _get_shop_menu: 0.003984212875366211
+2024-12-11 16:04:43,180: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17383d8700>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17383d8700>
+2024-12-11 16:04:43,180: INFO => create_response | api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d1738234b80>}]}
+api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d1738234b80>}]}
+2024-12-11 16:04:43,187: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:04:43,187: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235510>, 'request': <starlette.requests.Request object at 0x7d1738235450>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7d1738235510>, 'request': <starlette.requests.Request object at 0x7d1738235450>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:04:43,192: INFO => wrapper | total time for _get_shop_menu: 0.00450897216796875
+total time for _get_shop_menu: 0.00450897216796875
+2024-12-11 16:04:43,192: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17382ff580>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7d17382ff580>
+2024-12-11 16:04:43,192: INFO => create_response | api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382fdff0>}]}
+api response: {'status': 'success', 'data': [{'CatalogModel': <models.catalog.CatalogModel object at 0x7d17382fdff0>}]}
+2024-12-11 16:05:32,414: INFO => <module> | server started
+server started
+2024-12-11 16:05:38,514: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:05:38,514: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x71a9a1861ae0>, 'request': <starlette.requests.Request object at 0x71a9a1863250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x71a9a1861ae0>, 'request': <starlette.requests.Request object at 0x71a9a1863250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:05:38,584: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 16:05:38,585: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:05:38,592: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:05:38,593: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x71a9a1861c00>, 'request': <starlette.requests.Request object at 0x71a9a1861a80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x71a9a1861c00>, 'request': <starlette.requests.Request object at 0x71a9a1861a80>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:05:38,597: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 16:05:38,599: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu._asdict())
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:16:26,853: INFO => <module> | server started
+server started
+2024-12-11 16:16:36,439: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:16:36,439: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70c7b59bed10>, 'request': <starlette.requests.Request object at 0x70c7b59e8130>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70c7b59bed10>, 'request': <starlette.requests.Request object at 0x70c7b59e8130>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:16:55,716: INFO => <module> | server started
+server started
+2024-12-11 16:17:02,970: INFO => <module> | server started
+server started
+2024-12-11 16:17:06,671: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:17:06,671: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x788788fb3eb0>, 'request': <starlette.requests.Request object at 0x788788fb2b30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x788788fb3eb0>, 'request': <starlette.requests.Request object at 0x788788fb2b30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:17:17,160: INFO => <module> | server started
+server started
+2024-12-11 16:20:02,647: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:20:02,648: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x722c4f5baef0>, 'request': <starlette.requests.Request object at 0x722c4f5bacb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x722c4f5baef0>, 'request': <starlette.requests.Request object at 0x722c4f5bacb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:20:22,632: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:20:22,633: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x722c4f3677c0>, 'request': <starlette.requests.Request object at 0x722c4f365de0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x722c4f3677c0>, 'request': <starlette.requests.Request object at 0x722c4f365de0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:21:12,057: INFO => <module> | server started
+server started
+2024-12-11 16:21:15,707: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:21:15,708: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7632bd469b10>, 'request': <starlette.requests.Request object at 0x7632bd46b250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7632bd469b10>, 'request': <starlette.requests.Request object at 0x7632bd46b250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:21:15,771: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 16:21:15,772: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:21:15,777: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:21:15,777: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7632bd40c700>, 'request': <starlette.requests.Request object at 0x7632bd468d30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7632bd40c700>, 'request': <starlette.requests.Request object at 0x7632bd468d30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:21:15,781: ERROR => wrapper | exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+exception in log_method_resp_time: 'CatalogModel' object has no attribute '_asdict'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+2024-12-11 16:21:15,782: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 205, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 198, in get_shop_menu
+    menu_list.append(menu[0]._asdict()['CatalogModel'])
+AttributeError: 'CatalogModel' object has no attribute '_asdict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:22:44,116: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:22:44,117: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e60490>, 'request': <starlette.requests.Request object at 0x7e7b49e60c70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e60490>, 'request': <starlette.requests.Request object at 0x7e7b49e60c70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:22:44,178: ERROR => wrapper | exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+2024-12-11 16:22:44,180: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:22:45,715: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:22:45,716: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e602e0>, 'request': <starlette.requests.Request object at 0x7e7b49e60310>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e602e0>, 'request': <starlette.requests.Request object at 0x7e7b49e60310>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:22:45,719: ERROR => wrapper | exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+2024-12-11 16:22:45,721: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:22:45,726: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:22:45,727: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e60640>, 'request': <starlette.requests.Request object at 0x7e7b49e602e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e7b49e60640>, 'request': <starlette.requests.Request object at 0x7e7b49e602e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:22:45,729: ERROR => wrapper | exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+exception in log_method_resp_time: item_name
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+2024-12-11 16:22:45,731: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 199, in _key_not_found
+    self._key_fallback(key, None)
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 138, in _key_fallback
+    raise KeyError(key) from err
+KeyError: 'item_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 153, in _get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 144, in _get_shop_menu
+    shop = get_shop_menu(db=db,shop_id=shop_id, filters=filters, sort_fields=sort_fields, paginate=paginate)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 209, in get_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/dao/shop.py", line 199, in get_shop_menu
+    "item_name": menu.item_name,
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 66, in sqlalchemy.cyextension.resultproxy.BaseRow.__getattr__
+  File "lib/sqlalchemy/cyextension/resultproxy.pyx", line 63, in sqlalchemy.cyextension.resultproxy.BaseRow._get_by_key_impl
+  File "/home/vanshpatel/miniconda3/envs/app-am1/lib/python3.10/site-packages/sqlalchemy/engine/result.py", line 201, in _key_not_found
+    raise AttributeError(ke.args[0]) from ke
+AttributeError: item_name
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 112, in get_shop_menu
+    response = _get_shop_menu(db=db,request=request,user_id=user_id,shop_id=shop_id,
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-11 16:22:54,478: INFO => <module> | server started
+server started
+2024-12-11 16:23:06,752: INFO => <module> | server started
+server started
+2024-12-11 16:23:11,262: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:23:11,263: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd61b10>, 'request': <starlette.requests.Request object at 0x7ff5ffd63250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd61b10>, 'request': <starlette.requests.Request object at 0x7ff5ffd63250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:23:11,332: INFO => wrapper | total time for _get_shop_menu: 0.06896328926086426
+total time for _get_shop_menu: 0.06896328926086426
+2024-12-11 16:23:11,332: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd08700>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd08700>
+2024-12-11 16:23:11,332: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 16:23:11,336: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:23:11,336: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffde16c0>, 'request': <starlette.requests.Request object at 0x7ff5ffd62fb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffde16c0>, 'request': <starlette.requests.Request object at 0x7ff5ffd62fb0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:23:11,338: INFO => wrapper | total time for _get_shop_menu: 0.0021560192108154297
+total time for _get_shop_menu: 0.0021560192108154297
+2024-12-11 16:23:11,338: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd08700>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd08700>
+2024-12-11 16:23:11,338: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
