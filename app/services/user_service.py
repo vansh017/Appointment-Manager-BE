@@ -25,7 +25,8 @@ def get_user_data(*args,**kwargs):
             raise TSServerError(
                 error=TSServerError.USER_NOT_FOUND,
                 status_code=200)
-        user_dict = dict(first_name = user.first_name,
+        user_dict = dict(user_id=user.id,
+                         first_name = user.first_name,
                          last_name=user.last_name,
                          email=user.email,
                          gender=user.gender,
