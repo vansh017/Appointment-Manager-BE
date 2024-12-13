@@ -1,3 +1,5 @@
+from typing import List
+
 import bcrypt
 from sqlalchemy import select, and_, or_, func
 from sqlalchemy.orm import Session
@@ -43,6 +45,26 @@ def create_shop(db: Session, shop_details : CreateShop, user : UserModel):
         catalog_list = crud.Catalog.add_multiple_records(db=db,objects=shop_details.catalog_list )
 
         return shop
+
+    except TSServerError as e:
+        raise e
+
+    except Exception as e:
+        raise e
+
+
+def create_shop_menu(db: Session, menu_details : List[CatalogSchema], user : UserModel):
+    """
+
+    :param db:
+    :param menu_details:
+    :param user:
+    :return:
+    """
+
+    try:
+
+        crud.Catalog.add_multiple_records(db=db,objects=menu_details)
 
     except TSServerError as e:
         raise e

@@ -8380,3 +8380,857 @@ total time for _get_shop_menu: 0.0021560192108154297
 response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd08700>
 2024-12-11 16:23:11,338: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
 api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 16:28:11,165: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:28:11,165: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd60d00>, 'request': <starlette.requests.Request object at 0x7ff5ffd63160>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd60d00>, 'request': <starlette.requests.Request object at 0x7ff5ffd63160>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:28:11,171: INFO => wrapper | total time for _get_shop_menu: 0.005834102630615234
+total time for _get_shop_menu: 0.005834102630615234
+2024-12-11 16:28:11,172: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b130>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b130>
+2024-12-11 16:28:11,172: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 16:28:23,295: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:28:23,295: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd60d00>, 'request': <starlette.requests.Request object at 0x7ff5ffd62f50>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd60d00>, 'request': <starlette.requests.Request object at 0x7ff5ffd62f50>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:28:23,307: INFO => wrapper | total time for _get_shop_menu: 0.01201486587524414
+total time for _get_shop_menu: 0.01201486587524414
+2024-12-11 16:28:23,307: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329b70>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329b70>
+2024-12-11 16:28:23,308: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 16:29:56,746: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:29:56,747: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63280>, 'request': <starlette.requests.Request object at 0x7ff5ffd63c70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63280>, 'request': <starlette.requests.Request object at 0x7ff5ffd63c70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:29:56,751: INFO => wrapper | total time for _get_shop_menu: 0.0037724971771240234
+total time for _get_shop_menu: 0.0037724971771240234
+2024-12-11 16:29:56,751: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329bd0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329bd0>
+2024-12-11 16:29:56,751: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 16:30:49,939: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 16:30:49,939: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63100>, 'request': <starlette.requests.Request object at 0x7ff5ffd63880>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63100>, 'request': <starlette.requests.Request object at 0x7ff5ffd63880>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 16:30:49,947: INFO => wrapper | total time for _get_shop_menu: 0.0073740482330322266
+total time for _get_shop_menu: 0.0073740482330322266
+2024-12-11 16:30:49,947: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329c00>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329c00>
+2024-12-11 16:30:49,948: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:06:39,177: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:06:39,177: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63af0>, 'request': <starlette.requests.Request object at 0x7ff5ff329bd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63af0>, 'request': <starlette.requests.Request object at 0x7ff5ff329bd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:06:39,185: INFO => wrapper | total time for _get_shop_menu: 0.007974624633789062
+total time for _get_shop_menu: 0.007974624633789062
+2024-12-11 17:06:39,186: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff60159ef80>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff60159ef80>
+2024-12-11 17:06:39,186: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:06:39,193: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:06:39,193: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff602a8c880>, 'request': <starlette.requests.Request object at 0x7ff5ff3284c0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff602a8c880>, 'request': <starlette.requests.Request object at 0x7ff5ff3284c0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:06:39,198: INFO => wrapper | total time for _get_shop_menu: 0.004911184310913086
+total time for _get_shop_menu: 0.004911184310913086
+2024-12-11 17:06:39,198: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32bb20>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32bb20>
+2024-12-11 17:06:39,199: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:06:47,330: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:06:47,330: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffde1a20>, 'request': <starlette.requests.Request object at 0x7ff5ffd638b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffde1a20>, 'request': <starlette.requests.Request object at 0x7ff5ffd638b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:06:47,335: INFO => wrapper | total time for _get_shop_menu: 0.0046498775482177734
+total time for _get_shop_menu: 0.0046498775482177734
+2024-12-11 17:06:47,335: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd62f50>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd62f50>
+2024-12-11 17:06:47,335: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:23:32,432: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:23:32,433: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd62ec0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b040>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd62ec0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b040>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:23:32,446: INFO => wrapper | total time for _get_shops: 0.013080358505249023
+total time for _get_shops: 0.013080358505249023
+2024-12-11 17:23:32,446: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7ff5ffd63940>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7ff5ffd63940>
+2024-12-11 17:23:32,446: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-11 17:23:32,450: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:23:32,450: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63940>, 'request': <starlette.requests.Request object at 0x7ff5ff328490>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ffd63940>, 'request': <starlette.requests.Request object at 0x7ff5ff328490>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:23:32,453: INFO => wrapper | total time for _get_shops: 0.002737283706665039
+total time for _get_shops: 0.002737283706665039
+2024-12-11 17:23:32,453: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7ff5ff32ad70>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7ff5ff32ad70>
+2024-12-11 17:23:32,453: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-11 17:23:35,632: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:23:35,632: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32ad70>, 'request': <starlette.requests.Request object at 0x7ff5ff32b880>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32ad70>, 'request': <starlette.requests.Request object at 0x7ff5ff32b880>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:23:35,638: INFO => wrapper | total time for _get_shop_menu: 0.006097316741943359
+total time for _get_shop_menu: 0.006097316741943359
+2024-12-11 17:23:35,639: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a170>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a170>
+2024-12-11 17:23:35,639: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:23:35,647: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:23:35,648: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff602a8c880>, 'request': <starlette.requests.Request object at 0x7ff5ff328ca0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff602a8c880>, 'request': <starlette.requests.Request object at 0x7ff5ff328ca0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:23:35,654: INFO => wrapper | total time for _get_shop_menu: 0.006185293197631836
+total time for _get_shop_menu: 0.006185293197631836
+2024-12-11 17:23:35,654: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff328eb0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff328eb0>
+2024-12-11 17:23:35,654: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:24:48,613: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:24:48,613: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff328eb0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff328eb0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b250>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:24:48,618: INFO => wrapper | total time for _get_shop_menu: 0.0041522979736328125
+total time for _get_shop_menu: 0.0041522979736328125
+2024-12-11 17:24:48,618: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+2024-12-11 17:24:48,618: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:25:26,778: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:25:26,779: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff329300>, 'request': <starlette.requests.Request object at 0x7ff5ff32bc70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff329300>, 'request': <starlette.requests.Request object at 0x7ff5ff32bc70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:25:26,784: INFO => wrapper | total time for _get_shop_menu: 0.0056798458099365234
+total time for _get_shop_menu: 0.0056798458099365234
+2024-12-11 17:25:26,785: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff600935870>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff600935870>
+2024-12-11 17:25:26,785: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:27:34,266: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:27:34,267: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b7f0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b130>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b7f0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b130>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:27:34,272: INFO => wrapper | total time for _get_shop_menu: 0.004848480224609375
+total time for _get_shop_menu: 0.004848480224609375
+2024-12-11 17:27:34,272: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+2024-12-11 17:27:34,272: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:27:34,276: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:27:34,277: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff328460>, 'request': <starlette.requests.Request object at 0x7ff5ff328340>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff328460>, 'request': <starlette.requests.Request object at 0x7ff5ff328340>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:27:34,281: INFO => wrapper | total time for _get_shop_menu: 0.0042116641998291016
+total time for _get_shop_menu: 0.0042116641998291016
+2024-12-11 17:27:34,281: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff602a8f9d0>
+2024-12-11 17:27:34,281: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:27:34,303: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:27:34,303: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b0a0>, 'request': <starlette.requests.Request object at 0x7ff5ff329ff0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b0a0>, 'request': <starlette.requests.Request object at 0x7ff5ff329ff0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:27:34,308: INFO => wrapper | total time for _get_shop_menu: 0.005107879638671875
+total time for _get_shop_menu: 0.005107879638671875
+2024-12-11 17:27:34,308: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd619c0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd619c0>
+2024-12-11 17:27:34,308: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:28:52,058: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:28:52,058: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32baf0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b190>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32baf0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b190>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:28:52,063: INFO => wrapper | total time for _get_shop_menu: 0.004330873489379883
+total time for _get_shop_menu: 0.004330873489379883
+2024-12-11 17:28:52,063: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b2e0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b2e0>
+2024-12-11 17:28:52,063: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:37:36,499: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:37:36,500: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a8c0>, 'request': <starlette.requests.Request object at 0x7ff5ffd63340>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a8c0>, 'request': <starlette.requests.Request object at 0x7ff5ffd63340>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:37:36,504: INFO => wrapper | total time for _get_shop_menu: 0.004461526870727539
+total time for _get_shop_menu: 0.004461526870727539
+2024-12-11 17:37:36,504: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b250>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b250>
+2024-12-11 17:37:36,504: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:37:36,514: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:37:36,514: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a320>, 'request': <starlette.requests.Request object at 0x7ff5ffd63af0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a320>, 'request': <starlette.requests.Request object at 0x7ff5ffd63af0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:37:36,524: INFO => wrapper | total time for _get_shop_menu: 0.009892463684082031
+total time for _get_shop_menu: 0.009892463684082031
+2024-12-11 17:37:36,525: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329bd0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329bd0>
+2024-12-11 17:37:36,525: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:38:10,398: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:38:10,398: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32afe0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bc40>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32afe0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bc40>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:38:10,405: INFO => wrapper | total time for _get_shop_menu: 0.006697654724121094
+total time for _get_shop_menu: 0.006697654724121094
+2024-12-11 17:38:10,405: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b2b0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b2b0>
+2024-12-11 17:38:10,406: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:38:10,412: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:38:10,413: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32ad70>, 'request': <starlette.requests.Request object at 0x7ff5ff32ab90>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32ad70>, 'request': <starlette.requests.Request object at 0x7ff5ff32ab90>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:38:10,419: INFO => wrapper | total time for _get_shop_menu: 0.006683826446533203
+total time for _get_shop_menu: 0.006683826446533203
+2024-12-11 17:38:10,420: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32bd00>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32bd00>
+2024-12-11 17:38:10,420: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:38:43,516: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:38:43,516: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b6d0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bfa0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b6d0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bfa0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:38:43,522: INFO => wrapper | total time for _get_shop_menu: 0.00597381591796875
+total time for _get_shop_menu: 0.00597381591796875
+2024-12-11 17:38:43,523: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b100>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b100>
+2024-12-11 17:38:43,524: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:38:43,617: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:38:43,618: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b130>, 'request': <starlette.requests.Request object at 0x7ff5ff32bd00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b130>, 'request': <starlette.requests.Request object at 0x7ff5ff32bd00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:38:43,620: INFO => wrapper | total time for _get_shop_menu: 0.002500772476196289
+total time for _get_shop_menu: 0.002500772476196289
+2024-12-11 17:38:43,620: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b7f0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32b7f0>
+2024-12-11 17:38:43,620: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:39:54,071: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:39:54,071: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32add0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bd00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32add0>, 'request': <starlette.requests.Request object at 0x7ff5ff32bd00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:39:54,075: INFO => wrapper | total time for _get_shop_menu: 0.004065036773681641
+total time for _get_shop_menu: 0.004065036773681641
+2024-12-11 17:39:54,076: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329c60>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff329c60>
+2024-12-11 17:39:54,076: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:40:16,008: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:40:16,008: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32bcd0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b100>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32bcd0>, 'request': <starlette.requests.Request object at 0x7ff5ff32b100>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:40:16,013: INFO => wrapper | total time for _get_shop_menu: 0.00426793098449707
+total time for _get_shop_menu: 0.00426793098449707
+2024-12-11 17:40:16,013: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff328ca0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff328ca0>
+2024-12-11 17:40:16,013: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:41:45,122: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:41:45,123: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff329ff0>, 'request': <starlette.requests.Request object at 0x7ff5ff32aef0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff329ff0>, 'request': <starlette.requests.Request object at 0x7ff5ff32aef0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:41:45,126: INFO => wrapper | total time for _get_shop_menu: 0.0033736228942871094
+total time for _get_shop_menu: 0.0033736228942871094
+2024-12-11 17:41:45,126: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+2024-12-11 17:41:45,127: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:42:47,389: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:42:47,389: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a890>, 'request': <starlette.requests.Request object at 0x7ff5ff32b1c0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32a890>, 'request': <starlette.requests.Request object at 0x7ff5ff32b1c0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:42:47,391: INFO => wrapper | total time for _get_shop_menu: 0.0024030208587646484
+total time for _get_shop_menu: 0.0024030208587646484
+2024-12-11 17:42:47,391: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+2024-12-11 17:42:47,392: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:42:55,248: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:42:55,249: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b820>, 'request': <starlette.requests.Request object at 0x7ff5ff32abc0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32b820>, 'request': <starlette.requests.Request object at 0x7ff5ff32abc0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:42:55,256: INFO => wrapper | total time for _get_shop_menu: 0.006663799285888672
+total time for _get_shop_menu: 0.006663799285888672
+2024-12-11 17:42:55,256: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+2024-12-11 17:42:55,256: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:44:36,807: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:44:36,807: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32bc70>, 'request': <starlette.requests.Request object at 0x7ff5ff329b10>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32bc70>, 'request': <starlette.requests.Request object at 0x7ff5ff329b10>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:44:36,810: INFO => wrapper | total time for _get_shop_menu: 0.0026912689208984375
+total time for _get_shop_menu: 0.0026912689208984375
+2024-12-11 17:44:36,810: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ff32a140>
+2024-12-11 17:44:36,810: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-11 17:55:23,711: INFO => wrapper | getting shops 
+getting shops 
+2024-12-11 17:55:23,711: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32af50>, 'request': <starlette.requests.Request object at 0x7ff5ff32aef0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7ff5ff32af50>, 'request': <starlette.requests.Request object at 0x7ff5ff32aef0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-11 17:55:23,716: INFO => wrapper | total time for _get_shop_menu: 0.004541158676147461
+total time for _get_shop_menu: 0.004541158676147461
+2024-12-11 17:55:23,716: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd63160>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7ff5ffd63160>
+2024-12-11 17:55:23,716: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 11:51:49,289: INFO => <module> | server started
+server started
+2024-12-12 11:52:01,472: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 11:52:01,473: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70307f79a290>, 'request': <starlette.requests.Request object at 0x70307f7986a0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70307f79a290>, 'request': <starlette.requests.Request object at 0x70307f7986a0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 11:52:01,520: INFO => wrapper | total time for _get_shops: 0.047594308853149414
+total time for _get_shops: 0.047594308853149414
+2024-12-12 11:52:01,521: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x703080439810>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x703080439810>
+2024-12-12 11:52:01,521: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 11:52:01,526: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 11:52:01,526: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x703080406020>, 'request': <starlette.requests.Request object at 0x70307f798850>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x703080406020>, 'request': <starlette.requests.Request object at 0x70307f798850>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 11:52:01,531: INFO => wrapper | total time for _get_shops: 0.0051119327545166016
+total time for _get_shops: 0.0051119327545166016
+2024-12-12 11:52:01,531: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x703080439810>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x703080439810>
+2024-12-12 11:52:01,531: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 11:52:02,926: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 11:52:02,926: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x703080439810>, 'request': <starlette.requests.Request object at 0x70307f798a30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x703080439810>, 'request': <starlette.requests.Request object at 0x70307f798a30>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 11:52:02,931: INFO => wrapper | total time for _get_shop_menu: 0.004130840301513672
+total time for _get_shop_menu: 0.004130840301513672
+2024-12-12 11:52:02,931: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x70307f769a50>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x70307f769a50>
+2024-12-12 11:52:02,931: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 11:52:02,936: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 11:52:02,936: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70307f632a70>, 'request': <starlette.requests.Request object at 0x70307f7984f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70307f632a70>, 'request': <starlette.requests.Request object at 0x70307f7984f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 11:52:02,939: INFO => wrapper | total time for _get_shop_menu: 0.0035085678100585938
+total time for _get_shop_menu: 0.0035085678100585938
+2024-12-12 11:52:02,940: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7030824999c0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7030824999c0>
+2024-12-12 11:52:02,940: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 21:25:58,341: INFO => <module> | server started
+server started
+2024-12-12 21:26:02,671: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 21:26:02,672: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067ea77f0>, 'request': <starlette.requests.Request object at 0x78b067ea4ee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067ea77f0>, 'request': <starlette.requests.Request object at 0x78b067ea4ee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 21:26:02,747: INFO => wrapper | total time for _get_shops: 0.07487344741821289
+total time for _get_shops: 0.07487344741821289
+2024-12-12 21:26:02,748: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x78b067e20550>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x78b067e20550>
+2024-12-12 21:26:02,749: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 21:26:02,758: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 21:26:02,759: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067e20550>, 'request': <starlette.requests.Request object at 0x78b067ea5bd0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067e20550>, 'request': <starlette.requests.Request object at 0x78b067ea5bd0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 21:26:02,771: INFO => wrapper | total time for _get_shops: 0.01224970817565918
+total time for _get_shops: 0.01224970817565918
+2024-12-12 21:26:02,772: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x78b067d470d0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x78b067d470d0>
+2024-12-12 21:26:02,772: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 21:26:04,187: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 21:26:04,187: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067d470d0>, 'request': <starlette.requests.Request object at 0x78b067ea7460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b067d470d0>, 'request': <starlette.requests.Request object at 0x78b067ea7460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 21:26:04,205: INFO => wrapper | total time for _get_shop_menu: 0.018032550811767578
+total time for _get_shop_menu: 0.018032550811767578
+2024-12-12 21:26:04,206: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x78b067ea50f0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x78b067ea50f0>
+2024-12-12 21:26:04,206: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 21:26:04,216: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 21:26:04,217: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b068bdc730>, 'request': <starlette.requests.Request object at 0x78b067ea5cc0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x78b068bdc730>, 'request': <starlette.requests.Request object at 0x78b067ea5cc0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 21:26:04,226: INFO => wrapper | total time for _get_shop_menu: 0.008662700653076172
+total time for _get_shop_menu: 0.008662700653076172
+2024-12-12 21:26:04,226: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x78b067d47040>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x78b067d47040>
+2024-12-12 21:26:04,227: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:08:40,188: INFO => <module> | server started
+server started
+2024-12-12 22:09:04,280: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:04,281: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3610>, 'request': <starlette.requests.Request object at 0x6fff355a1030>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3610>, 'request': <starlette.requests.Request object at 0x6fff355a1030>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:04,343: INFO => wrapper | total time for _get_shops: 0.06175351142883301
+total time for _get_shops: 0.06175351142883301
+2024-12-12 22:09:04,343: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff35516dd0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff35516dd0>
+2024-12-12 22:09:04,343: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:09:04,349: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:04,350: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff35516dd0>, 'request': <starlette.requests.Request object at 0x6fff355a1060>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff35516dd0>, 'request': <starlette.requests.Request object at 0x6fff355a1060>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:04,358: INFO => wrapper | total time for _get_shops: 0.007985115051269531
+total time for _get_shops: 0.007985115051269531
+2024-12-12 22:09:04,359: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff354430d0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff354430d0>
+2024-12-12 22:09:04,359: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:09:08,543: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:08,544: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff354430d0>, 'request': <starlette.requests.Request object at 0x6fff355a3460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff354430d0>, 'request': <starlette.requests.Request object at 0x6fff355a3460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:08,553: INFO => wrapper | total time for _get_shop_menu: 0.009820699691772461
+total time for _get_shop_menu: 0.009820699691772461
+2024-12-12 22:09:08,554: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a11e0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a11e0>
+2024-12-12 22:09:08,554: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:09:08,562: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:08,562: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff361d8730>, 'request': <starlette.requests.Request object at 0x6fff355a1480>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff361d8730>, 'request': <starlette.requests.Request object at 0x6fff355a1480>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:08,571: INFO => wrapper | total time for _get_shop_menu: 0.008455038070678711
+total time for _get_shop_menu: 0.008455038070678711
+2024-12-12 22:09:08,571: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff35443040>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff35443040>
+2024-12-12 22:09:08,572: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:09:31,418: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:31,419: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a0e20>, 'request': <starlette.requests.Request object at 0x6fff355a1150>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a0e20>, 'request': <starlette.requests.Request object at 0x6fff355a1150>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:31,430: INFO => wrapper | total time for _get_shops: 0.011107444763183594
+total time for _get_shops: 0.011107444763183594
+2024-12-12 22:09:31,431: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a3c10>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a3c10>
+2024-12-12 22:09:31,431: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:09:31,440: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:09:31,441: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1510>, 'request': <starlette.requests.Request object at 0x6fff355a1150>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1510>, 'request': <starlette.requests.Request object at 0x6fff355a1150>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:09:31,451: INFO => wrapper | total time for _get_shops: 0.010216474533081055
+total time for _get_shops: 0.010216474533081055
+2024-12-12 22:09:31,452: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a0a60>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a0a60>
+2024-12-12 22:09:31,452: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:12:24,876: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:12:24,877: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a17b0>, 'request': <starlette.requests.Request object at 0x6fff355a1a50>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a17b0>, 'request': <starlette.requests.Request object at 0x6fff355a1a50>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:12:24,881: INFO => wrapper | total time for _get_shops: 0.004231452941894531
+total time for _get_shops: 0.004231452941894531
+2024-12-12 22:12:24,881: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a1210>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a1210>
+2024-12-12 22:12:24,881: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:12:24,889: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:12:24,889: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3310>, 'request': <starlette.requests.Request object at 0x6fff355a1ab0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3310>, 'request': <starlette.requests.Request object at 0x6fff355a1ab0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:12:24,892: INFO => wrapper | total time for _get_shops: 0.0030341148376464844
+total time for _get_shops: 0.0030341148376464844
+2024-12-12 22:12:24,892: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a19f0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a19f0>
+2024-12-12 22:12:24,892: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:17:39,786: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-12-12 22:17:39,786: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+2024-12-12 22:17:39,793: INFO => wrapper | total time for total_otp_request: 0.006290435791015625
+total time for total_otp_request: 0.006290435791015625
+2024-12-12 22:17:39,793: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-12-12 22:17:39,793: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-12-12 22:17:39,795: INFO => wrapper | creating otp for user
+creating otp for user
+2024-12-12 22:17:39,795: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+2024-12-12 22:17:39,795: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-12-12 22:17:39,795: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+2024-12-12 22:17:39,796: INFO => wrapper | total time for invalidate_previous_otp: 0.0009567737579345703
+total time for invalidate_previous_otp: 0.0009567737579345703
+2024-12-12 22:17:39,796: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-12-12 22:17:39,800: INFO => wrapper | total time for create_otp: 0.004796028137207031
+total time for create_otp: 0.004796028137207031
+2024-12-12 22:17:39,800: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x6fff354e65f0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x6fff354e65f0>
+2024-12-12 22:17:39,800: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-12-12 22:17:39,800: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1810>, 'user_id': 4}
+2024-12-12 22:17:39,801: INFO => wrapper | total time for total_otp_request: 0.001325368881225586
+total time for total_otp_request: 0.001325368881225586
+2024-12-12 22:17:39,802: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-12-12 22:17:39,807: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-12-12 22:17:42,491: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-12-12 22:17:42,491: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-12-12 22:17:42,496: INFO => wrapper | getting otp user
+getting otp user
+2024-12-12 22:17:42,497: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-12-12 22:17:42,503: INFO => wrapper | total time for get_otp_user: 0.006353616714477539
+total time for get_otp_user: 0.006353616714477539
+2024-12-12 22:17:42,504: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x6fff35334130>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x6fff35334130>]
+2024-12-12 22:17:42,508: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-12-12 22:17:42,509: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3400>, 'user_id': 4}
+2024-12-12 22:17:42,514: INFO => wrapper | total time for delete_previous_otp: 0.00547027587890625
+total time for delete_previous_otp: 0.00547027587890625
+2024-12-12 22:17:42,514: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-12-12 22:17:42,515: INFO => wrapper | total time for validate_otp_request: 0.023357629776000977
+total time for validate_otp_request: 0.023357629776000977
+2024-12-12 22:17:42,515: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x6fff354e7700>
+response from function: validate_otp_request: <models.user.UserModel object at 0x6fff354e7700>
+2024-12-12 22:17:42,521: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTItMTIgMjI6NDc6NDIiLCJleHAiOjE3MzQwMjM4NjJ9.ObfRLMUL3b8H8n0R3dVZbBwY4lIfSy5OWNw3fEsAzN4', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTItMTIgMjI6NDc6NDIiLCJleHAiOjE3MzQwMjM4NjJ9.ObfRLMUL3b8H8n0R3dVZbBwY4lIfSy5OWNw3fEsAzN4', 'user_id': 4}}
+2024-12-12 22:17:42,537: INFO => wrapper | getting response
+getting response
+2024-12-12 22:17:42,537: INFO => wrapper | get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3100>, 'request': <starlette.requests.Request object at 0x6fff355a0a30>, 'user_id': 4}
+get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a3100>, 'request': <starlette.requests.Request object at 0x6fff355a0a30>, 'user_id': 4}
+2024-12-12 22:17:42,541: INFO => wrapper | total time for get_user_data: 0.0036263465881347656
+total time for get_user_data: 0.0036263465881347656
+2024-12-12 22:17:42,541: INFO => wrapper | response from function: get_user_data: <core.response_handlers.TSResponse object at 0x6fff355a3c10>
+response from function: get_user_data: <core.response_handlers.TSResponse object at 0x6fff355a3c10>
+2024-12-12 22:17:42,541: INFO => create_response | api response: {'status': 'success', 'data': {'user_id': 4, 'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+api response: {'status': 'success', 'data': {'user_id': 4, 'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-12-12 22:17:44,492: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:17:44,493: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1e40>, 'request': <starlette.requests.Request object at 0x6fff355a3130>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1e40>, 'request': <starlette.requests.Request object at 0x6fff355a3130>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:17:44,503: INFO => wrapper | total time for _get_shops: 0.009851932525634766
+total time for _get_shops: 0.009851932525634766
+2024-12-12 22:17:44,504: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a3400>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a3400>
+2024-12-12 22:17:44,504: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:17:44,512: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:17:44,513: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1f00>, 'request': <starlette.requests.Request object at 0x6fff355a1ab0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a1f00>, 'request': <starlette.requests.Request object at 0x6fff355a1ab0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:17:44,522: INFO => wrapper | total time for _get_shops: 0.009091615676879883
+total time for _get_shops: 0.009091615676879883
+2024-12-12 22:17:44,523: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a1b10>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x6fff355a1b10>
+2024-12-12 22:17:44,523: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:17:45,895: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:17:45,895: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a14b0>, 'request': <starlette.requests.Request object at 0x6fff355a3310>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a14b0>, 'request': <starlette.requests.Request object at 0x6fff355a3310>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:17:45,904: INFO => wrapper | total time for _get_shop_menu: 0.008398294448852539
+total time for _get_shop_menu: 0.008398294448852539
+2024-12-12 22:17:45,904: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a1360>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a1360>
+2024-12-12 22:17:45,905: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:17:45,913: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:17:45,913: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a16f0>, 'request': <starlette.requests.Request object at 0x6fff355a3400>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x6fff355a16f0>, 'request': <starlette.requests.Request object at 0x6fff355a3400>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:17:45,921: INFO => wrapper | total time for _get_shop_menu: 0.008037567138671875
+total time for _get_shop_menu: 0.008037567138671875
+2024-12-12 22:17:45,922: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a0fd0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x6fff355a0fd0>
+2024-12-12 22:17:45,922: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:27:38,102: INFO => <module> | server started
+server started
+2024-12-12 22:27:39,883: INFO => <module> | server started
+server started
+2024-12-12 22:27:46,890: INFO => <module> | server started
+server started
+2024-12-12 22:27:57,416: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:27:57,417: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7610>, 'request': <starlette.requests.Request object at 0x7e43adca4ee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7610>, 'request': <starlette.requests.Request object at 0x7e43adca4ee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:27:57,465: INFO => wrapper | total time for _get_shops: 0.04831337928771973
+total time for _get_shops: 0.04831337928771973
+2024-12-12 22:27:57,465: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7e43adc1add0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7e43adc1add0>
+2024-12-12 22:27:57,466: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:27:57,472: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:27:57,472: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adc1add0>, 'request': <starlette.requests.Request object at 0x7e43adca4cd0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adc1add0>, 'request': <starlette.requests.Request object at 0x7e43adca4cd0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:27:57,480: INFO => wrapper | total time for _get_shops: 0.007874250411987305
+total time for _get_shops: 0.007874250411987305
+2024-12-12 22:27:57,480: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7e43adb470d0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7e43adb470d0>
+2024-12-12 22:27:57,481: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-12 22:27:58,781: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:27:58,781: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adb470d0>, 'request': <starlette.requests.Request object at 0x7e43adca7460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adb470d0>, 'request': <starlette.requests.Request object at 0x7e43adca7460>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:27:58,792: INFO => wrapper | total time for _get_shop_menu: 0.010337352752685547
+total time for _get_shop_menu: 0.010337352752685547
+2024-12-12 22:27:58,793: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca51e0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca51e0>
+2024-12-12 22:27:58,793: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:27:58,800: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:27:58,800: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43ae9dc730>, 'request': <starlette.requests.Request object at 0x7e43adca5ba0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43ae9dc730>, 'request': <starlette.requests.Request object at 0x7e43adca5ba0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:27:58,808: INFO => wrapper | total time for _get_shop_menu: 0.0073206424713134766
+total time for _get_shop_menu: 0.0073206424713134766
+2024-12-12 22:27:58,808: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adb47040>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adb47040>
+2024-12-12 22:27:58,808: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:30:48,008: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:30:48,009: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca5240>, 'request': <starlette.requests.Request object at 0x7e43adca7ca0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca5240>, 'request': <starlette.requests.Request object at 0x7e43adca7ca0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:30:48,022: INFO => wrapper | total time for _get_shop_menu: 0.012685775756835938
+total time for _get_shop_menu: 0.012685775756835938
+2024-12-12 22:30:48,022: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca7610>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca7610>
+2024-12-12 22:30:48,022: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:31:56,795: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:31:56,795: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4bb0>, 'request': <starlette.requests.Request object at 0x7e43adca6110>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4bb0>, 'request': <starlette.requests.Request object at 0x7e43adca6110>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:31:56,804: INFO => wrapper | total time for _get_shop_menu: 0.008349418640136719
+total time for _get_shop_menu: 0.008349418640136719
+2024-12-12 22:31:56,804: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca58d0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca58d0>
+2024-12-12 22:31:56,805: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:32:53,284: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:32:53,285: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca5390>, 'request': <starlette.requests.Request object at 0x7e43adca5780>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca5390>, 'request': <starlette.requests.Request object at 0x7e43adca5780>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:32:53,296: INFO => wrapper | total time for _get_shop_menu: 0.011245012283325195
+total time for _get_shop_menu: 0.011245012283325195
+2024-12-12 22:32:53,296: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca7670>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca7670>
+2024-12-12 22:32:53,297: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:37:09,635: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:37:09,636: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7220>, 'request': <starlette.requests.Request object at 0x7e43adca5ab0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7220>, 'request': <starlette.requests.Request object at 0x7e43adca5ab0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:37:09,645: INFO => wrapper | total time for _get_shop_menu: 0.008880376815795898
+total time for _get_shop_menu: 0.008880376815795898
+2024-12-12 22:37:09,645: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca4ee0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca4ee0>
+2024-12-12 22:37:09,646: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:37:09,654: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:37:09,654: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4f70>, 'request': <starlette.requests.Request object at 0x7e43adca7670>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4f70>, 'request': <starlette.requests.Request object at 0x7e43adca7670>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:37:09,663: INFO => wrapper | total time for _get_shop_menu: 0.009226560592651367
+total time for _get_shop_menu: 0.009226560592651367
+2024-12-12 22:37:09,664: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca71f0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca71f0>
+2024-12-12 22:37:09,664: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:38:59,543: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:38:59,544: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7790>, 'request': <starlette.requests.Request object at 0x7e43adca57b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7790>, 'request': <starlette.requests.Request object at 0x7e43adca57b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:38:59,553: INFO => wrapper | total time for _get_shop_menu: 0.009177446365356445
+total time for _get_shop_menu: 0.009177446365356445
+2024-12-12 22:38:59,554: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca5480>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca5480>
+2024-12-12 22:38:59,554: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:44:40,943: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:44:40,943: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4a30>, 'request': <starlette.requests.Request object at 0x7e43adca73d0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4a30>, 'request': <starlette.requests.Request object at 0x7e43adca73d0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:44:40,949: INFO => wrapper | total time for _get_shop_menu: 0.0055348873138427734
+total time for _get_shop_menu: 0.0055348873138427734
+2024-12-12 22:44:40,949: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca5750>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca5750>
+2024-12-12 22:44:40,950: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-12 22:44:40,960: INFO => wrapper | getting shops 
+getting shops 
+2024-12-12 22:44:40,961: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7130>, 'request': <starlette.requests.Request object at 0x7e43adca73a0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca7130>, 'request': <starlette.requests.Request object at 0x7e43adca73a0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-12 22:44:40,970: INFO => wrapper | total time for _get_shop_menu: 0.008994340896606445
+total time for _get_shop_menu: 0.008994340896606445
+2024-12-12 22:44:40,971: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca6ef0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca6ef0>
+2024-12-12 22:44:40,971: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:42:05,711: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:42:05,712: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4e80>, 'request': <starlette.requests.Request object at 0x7e43adca54e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e43adca4e80>, 'request': <starlette.requests.Request object at 0x7e43adca54e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:42:05,718: INFO => wrapper | total time for _get_shop_menu: 0.005286216735839844
+total time for _get_shop_menu: 0.005286216735839844
+2024-12-13 09:42:05,718: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca6f80>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e43adca6f80>
+2024-12-13 09:42:05,718: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:48:43,035: INFO => <module> | server started
+server started
+2024-12-13 09:50:45,890: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:50:45,891: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a0f70>, 'request': <starlette.requests.Request object at 0x7f80492a1750>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a0f70>, 'request': <starlette.requests.Request object at 0x7f80492a1750>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:50:45,934: INFO => wrapper | total time for _get_shop_menu: 0.043762922286987305
+total time for _get_shop_menu: 0.043762922286987305
+2024-12-13 09:50:45,934: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f80492a3070>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f80492a3070>
+2024-12-13 09:50:45,935: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:50:45,937: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:50:45,937: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1090>, 'request': <starlette.requests.Request object at 0x7f80492a1b70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1090>, 'request': <starlette.requests.Request object at 0x7f80492a1b70>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:50:45,940: INFO => wrapper | total time for _get_shop_menu: 0.002521991729736328
+total time for _get_shop_menu: 0.002521991729736328
+2024-12-13 09:50:45,940: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f8049142440>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f8049142440>
+2024-12-13 09:50:45,940: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:51:06,314: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:51:06,314: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f8049142440>, 'request': <starlette.requests.Request object at 0x7f80492a19f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f8049142440>, 'request': <starlette.requests.Request object at 0x7f80492a19f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:51:06,317: INFO => wrapper | total time for _get_shop_menu: 0.0029265880584716797
+total time for _get_shop_menu: 0.0029265880584716797
+2024-12-13 09:51:06,317: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f8049142380>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f8049142380>
+2024-12-13 09:51:06,317: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:52:46,237: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:52:46,238: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1840>, 'request': <starlette.requests.Request object at 0x7f80492a0fd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1840>, 'request': <starlette.requests.Request object at 0x7f80492a0fd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:52:46,244: INFO => wrapper | total time for _get_shop_menu: 0.0065708160400390625
+total time for _get_shop_menu: 0.0065708160400390625
+2024-12-13 09:52:46,245: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f804919d090>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f804919d090>
+2024-12-13 09:52:46,245: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:56:52,232: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:56:52,232: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1ea0>, 'request': <starlette.requests.Request object at 0x7f80492a10f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f80492a1ea0>, 'request': <starlette.requests.Request object at 0x7f80492a10f0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:56:52,235: INFO => wrapper | total time for _get_shop_menu: 0.0029404163360595703
+total time for _get_shop_menu: 0.0029404163360595703
+2024-12-13 09:56:52,236: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f80492f79d0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f80492f79d0>
+2024-12-13 09:56:52,236: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:58:19,598: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 09:58:19,598: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f804919d120>, 'request': <starlette.requests.Request object at 0x7f80492a1ae0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f804919d120>, 'request': <starlette.requests.Request object at 0x7f80492a1ae0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 09:58:19,602: INFO => wrapper | total time for _get_shop_menu: 0.0035190582275390625
+total time for _get_shop_menu: 0.0035190582275390625
+2024-12-13 09:58:19,602: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f804919e410>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f804919e410>
+2024-12-13 09:58:19,602: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}]}
+2024-12-13 09:59:45,269: INFO => wrapper | create shop menu
+create shop menu
+2024-12-13 09:59:45,270: INFO => wrapper | _create_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70541f0639a0>, 'request': <starlette.requests.Request object at 0x70541f062f20>, 'user_id': 4, 'menu_details': [CatalogSchema(shop_id=8, item_name='afsd', expected_time=datetime.time(10, 0), price=45)]}
+_create_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x70541f0639a0>, 'request': <starlette.requests.Request object at 0x70541f062f20>, 'user_id': 4, 'menu_details': [CatalogSchema(shop_id=8, item_name='afsd', expected_time=datetime.time(10, 0), price=45)]}
+2024-12-13 09:59:45,313: ERROR => wrapper | exception in log_method_resp_time: 'shop_details'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 77, in _create_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 60, in _create_shop_menu
+    menu_details : List[CatalogSchema] = kwargs['shop_details']
+KeyError: 'shop_details'
+exception in log_method_resp_time: 'shop_details'
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 77, in _create_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 60, in _create_shop_menu
+    menu_details : List[CatalogSchema] = kwargs['shop_details']
+KeyError: 'shop_details'
+2024-12-13 09:59:45,316: ERROR => create_error_response | api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 77, in _create_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 60, in _create_shop_menu
+    menu_details : List[CatalogSchema] = kwargs['shop_details']
+KeyError: 'shop_details'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 143, in api_authenticate_user
+    response = _create_shop_menu(db=db,request=request,user_id=user_id,menu_details=menu_details)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+api response: {'status': 'failure', 'data': {'error_code': 5001, 'error_description': 'internal server error'}}
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 78, in wrapper
+    resp = func(*args, **kwargs)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 77, in _create_shop_menu
+    raise e
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/services/shop_service.py", line 60, in _create_shop_menu
+    menu_details : List[CatalogSchema] = kwargs['shop_details']
+KeyError: 'shop_details'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/api/api_v1/endpoints/shop.py", line 143, in api_authenticate_user
+    response = _create_shop_menu(db=db,request=request,user_id=user_id,menu_details=menu_details)
+  File "/home/vanshpatel/appointment-manager/Appointment-Manager-BE/app/utilities/methods.py", line 89, in wrapper
+    raise TSServerError()
+core.error.TSServerError: ERROR(5001): internal server error
+2024-12-13 10:00:02,032: INFO => wrapper | create shop menu
+create shop menu
+2024-12-13 10:00:02,032: INFO => wrapper | _create_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x79b40ea6d1e0>, 'request': <starlette.requests.Request object at 0x79b40ea6eef0>, 'user_id': 4, 'menu_details': [CatalogSchema(shop_id=8, item_name='afsd', expected_time=datetime.time(10, 0), price=45)]}
+_create_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x79b40ea6d1e0>, 'request': <starlette.requests.Request object at 0x79b40ea6eef0>, 'user_id': 4, 'menu_details': [CatalogSchema(shop_id=8, item_name='afsd', expected_time=datetime.time(10, 0), price=45)]}
+2024-12-13 10:00:02,103: INFO => wrapper | total time for _create_shop_menu: 0.07053422927856445
+total time for _create_shop_menu: 0.07053422927856445
+2024-12-13 10:00:02,103: INFO => wrapper | response from function: _create_shop_menu: <core.response_handlers.TSResponse object at 0x79b40f7da020>
+response from function: _create_shop_menu: <core.response_handlers.TSResponse object at 0x79b40f7da020>
+2024-12-13 10:00:02,103: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-13 10:00:02,113: INFO => wrapper | getting shops 
+getting shops 
+2024-12-13 10:00:02,113: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x79b40f7da020>, 'request': <starlette.requests.Request object at 0x79b40ea6edd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x79b40f7da020>, 'request': <starlette.requests.Request object at 0x79b40ea6edd0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-13 10:00:02,120: INFO => wrapper | total time for _get_shop_menu: 0.006160259246826172
+total time for _get_shop_menu: 0.006160259246826172
+2024-12-13 10:00:02,120: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x79b40ea6f9a0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x79b40ea6f9a0>
+2024-12-13 10:00:02,120: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}

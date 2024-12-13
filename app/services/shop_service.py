@@ -1,11 +1,13 @@
 import json
+from typing import List
 
 from fastapi import Request
 
 import crud
 from core import TSServerError, TSResponse, api_log
-from dao.shop import create_shop, get_shops, get_shop_menu
+from dao.shop import create_shop, get_shops, get_shop_menu, create_shop_menu
 from models import UserModel
+from schemas import CatalogSchema
 from utilities.methods import log_method_resp_time
 
 
@@ -41,6 +43,38 @@ def _create_shop(*args,**kwargs):
     except Exception as e:
         raise e
 
+
+@log_method_resp_time(msg="create shop menu")
+def _create_shop_menu(*args,**kwargs):
+    """
+
+    :param args:
+    :param kwargs:
+    :return:
+    """
+    try:
+        db = kwargs['db']
+        request : Request = kwargs['request']
+        user_id = kwargs['user_id']
+        user: UserModel = crud.User.get(db=db,id=user_id)
+        menu_details : List[CatalogSchema] = kwargs['menu_details']
+        if user:
+            user = user[0]
+        else:
+            raise TSServerError(
+                error=TSServerError.USER_NOT_FOUND,
+                status_code=200)
+
+        menu = create_shop_menu(db=db, menu_details=menu_details,user=user)
+        db.commit()
+
+        return TSResponse({})
+
+    except TSServerError as e:
+        raise e
+
+    except Exception as e:
+        raise e
 
 @log_method_resp_time(msg="getting shops ")
 def _get_shops(*args,**kwargs):
