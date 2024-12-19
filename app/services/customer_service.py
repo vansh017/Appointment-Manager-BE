@@ -48,7 +48,7 @@ def _add_customer_queue(*args,**kwargs):
 
 
 @log_method_resp_time(msg="getting shops ")
-def _get_customer_queue(*args,**kwargs):
+async def _get_customer_queue(*args,**kwargs):
     """
 
     :param args:
@@ -57,7 +57,7 @@ def _get_customer_queue(*args,**kwargs):
     """
     try:
         db = kwargs['db']
-        request : Request = kwargs['request']
+        # request : Request = kwargs['request']
         user_id = kwargs['user_id']
         shop_id = kwargs['shop_id']
         user: [UserModel] = crud.User.get(db=db,id=user_id)

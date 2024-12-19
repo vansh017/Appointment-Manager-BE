@@ -5,6 +5,7 @@ from fastapi.params import Query
 from fastapi.security import HTTPBearer
 from sqlalchemy.orm import Session
 
+from api.api_v1.endpoints.websocket import connection_manager
 from constants import OpenApiTags
 from api.api_v1.deps import get_db
 from core import api_log, create_response, create_error_response, TSServerError
@@ -20,7 +21,7 @@ customer = APIRouter(
 
 @customer.post("", name="Join Customer Queue",
            description="Customer queue")
-def create_customer_row(*, request: Request,
+async def create_customer_row(*, request: Request,
                         user_id: int = Query(default=None),
                         shop_data = Body(),
                         db: Session = Depends(get_db),
@@ -37,6 +38,11 @@ def create_customer_row(*, request: Request,
     try:
         response = _add_customer_queue(db=db, request=request,shop_data=shop_data,user_id=user_id)
 
+        updated_queue = await _get_customer_queue(db=db, request=request,shop_id=shop_data.get("shop_id"),user_id=user_id,
+                                       filters=None,sort_fields=None,paginate=None)
+
+        await connection_manager.broadcast_to_shop(updated_queue.data,shop_id=int(shop_data.get("shop_id")))
+
         return create_response(response.data)
 
     except TSServerError as err:
@@ -49,7 +55,7 @@ def create_customer_row(*, request: Request,
 
 @customer.get("", name="Join Customer Queue",
            description="Customer queue")
-def get_customers(*, request: Request,
+async def get_customers(*, request: Request,
                   user_id: int = Query(default=None),
                   shop_id: int = Query(default=None),
                   db: Session = Depends(get_db),
@@ -70,7 +76,7 @@ def get_customers(*, request: Request,
     :return:
     """
     try:
-        response = _get_customer_queue(db=db, request=request,shop_id=shop_id,user_id=user_id,
+        response = await _get_customer_queue(db=db, request=request,shop_id=shop_id,user_id=user_id,
                                        filters=filters,sort_fields=sort_fields,paginate=paginate)
 
         return create_response(response.data)

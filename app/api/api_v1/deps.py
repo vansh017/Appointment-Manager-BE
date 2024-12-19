@@ -3,7 +3,7 @@ from db.session import SessionLocal
 from fastapi import Request
 
 
-def get_db(request: Request) -> Generator:
+def get_db(request: Request=None) -> Generator:
     db = None
     try:
         db = SessionLocal()
