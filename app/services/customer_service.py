@@ -10,6 +10,7 @@ from dao import get_customer_queue
 from dao.shop import create_shop
 from models import UserModel
 from schemas import CatalogSchema
+from schemas.api_schemas import UpdateStatus
 from utilities.methods import log_method_resp_time
 
 
@@ -39,6 +40,39 @@ def _add_customer_queue(*args,**kwargs):
         db.commit()
 
         return TSResponse(customer)
+
+    except TSServerError as e:
+        raise e
+
+    except Exception as e:
+        raise e
+
+
+@log_method_resp_time(msg="getting response")
+def _update_customer_queue(*args,**kwargs):
+    """
+
+    :param args:
+    :param kwargs:
+    :return:
+    """
+    try:
+        db = kwargs['db']
+        request : Request = kwargs['request']
+        user_id = kwargs['user_id']
+        user: UserModel = crud.User.get(db=db,id=user_id)
+        customer_data : UpdateStatus = kwargs['customer_data']
+        if user:
+            user = user[0]
+        else:
+            raise TSServerError(
+                error=TSServerError.USER_NOT_FOUND,
+                status_code=200)
+
+        dao.update_customer_to_queue(db=db, customer_data=customer_data, user=user)
+        db.commit()
+
+        return TSResponse({})
 
     except TSServerError as e:
         raise e

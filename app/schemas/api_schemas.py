@@ -5,6 +5,7 @@ from typing import List
 from pydantic import BaseModel, Field
 
 from schemas import AddressSchema, ContactSchema, CatalogSchema
+from schemas.customer_queue import CustomerStatusEnum
 
 
 class GenderEnum(str, Enum):
@@ -23,8 +24,11 @@ class CreateUser(BaseModel):
     contact_number : str
 
 
+class UpdateStatus(BaseModel):
 
-
+    shop_id : int
+    customer_id : int
+    status : CustomerStatusEnum
 class CreateShop(BaseModel):
 
     shop_name: str

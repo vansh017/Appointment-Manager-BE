@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 import crud
 from models import UserModel, CustomerQueueModel
 from schemas import ShopSchema, CatalogSchema, CustomerQueueSchema
-from schemas.api_schemas import CreateShop
+from schemas.api_schemas import CreateShop, UpdateStatus
 from core import TSServerError, api_log
 from schemas.customer_queue import CustomerStatusEnum
 
@@ -25,6 +25,33 @@ def add_customer_to_queue(db: Session, shop_id : int, user : UserModel):
                             status = CustomerStatusEnum.WAITING.value)
         customer = crud.CustomerQueue.create(db=db, record=customer_obj)
         return customer
+
+    except TSServerError as e:
+        raise e
+
+    except Exception as e:
+        raise e
+
+def update_customer_to_queue(db: Session, customer_data : UpdateStatus, user : UserModel):
+    """
+
+    :param db:
+    :param customer_data:
+    :param user:
+    :return:
+    """
+
+    try:
+
+        query = select(CustomerQueueModel).filter(CustomerQueueModel.shop_id == customer_data.shop_id,
+                                                  CustomerQueueModel.customer_id == customer_data.customer_id)
+
+        customer_info = db.execute(query).all()
+
+        for customer in customer_info:
+            customer[0].status = customer_data.status
+            db.flush([customer[0]])
+
 
     except TSServerError as e:
         raise e

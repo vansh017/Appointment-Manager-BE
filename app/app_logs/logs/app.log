@@ -15016,3 +15016,1059 @@ total time for _get_customer_queue: 0.00019884109497070312
 response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35674c0>
 2024-12-19 15:09:41,645: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
 api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
+2024-12-19 15:33:56,732: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:33:56,732: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1ff0>, 'request': <starlette.requests.Request object at 0x7cb3e35c27d0>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1ff0>, 'request': <starlette.requests.Request object at 0x7cb3e35c27d0>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:33:56,735: INFO => wrapper | total time for _get_shops: 0.0033338069915771484
+total time for _get_shops: 0.0033338069915771484
+2024-12-19 15:33:56,736: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3593fd0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3593fd0>
+2024-12-19 15:33:56,736: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:33:56,740: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:33:56,740: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5a6e0>, 'request': <starlette.requests.Request object at 0x7cb3e35c3850>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5a6e0>, 'request': <starlette.requests.Request object at 0x7cb3e35c3850>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:33:56,744: INFO => wrapper | total time for _get_shops: 0.0034220218658447266
+total time for _get_shops: 0.0034220218658447266
+2024-12-19 15:33:56,744: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c00d0>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c00d0>
+2024-12-19 15:33:56,744: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:37:12,210: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:37:12,210: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c00d0>, 'request': <starlette.requests.Request object at 0x7cb3e35c2050>, 'shop_id': 6, 'user_id': 9, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c00d0>, 'request': <starlette.requests.Request object at 0x7cb3e35c2050>, 'shop_id': 6, 'user_id': 9, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:37:12,210: INFO => wrapper | total time for _get_customer_queue: 0.0001437664031982422
+total time for _get_customer_queue: 0.0001437664031982422
+2024-12-19 15:37:12,211: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3564c80>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3564c80>
+2024-12-19 15:37:12,216: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
+2024-12-19 15:37:12,217: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:37:12,218: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1b10>, 'request': <starlette.requests.Request object at 0x7cb3e2b171f0>, 'user_id': 9, 'shop_id': 6, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1b10>, 'request': <starlette.requests.Request object at 0x7cb3e2b171f0>, 'user_id': 9, 'shop_id': 6, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:37:12,222: INFO => wrapper | getting shops 
+2024-12-19 15:37:12,222: INFO => wrapper | total time for _get_shop_menu: 0.004570960998535156
+getting shops 
+2024-12-19 15:37:12,222: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e9d20>, 'request': <starlette.requests.Request object at 0x7cb3e35e8c70>, 'shop_id': 6, 'user_id': 9, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.004570960998535156
+2024-12-19 15:37:12,222: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35ea2c0>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e9d20>, 'request': <starlette.requests.Request object at 0x7cb3e35e8c70>, 'shop_id': 6, 'user_id': 9, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:37:12,223: INFO => wrapper | total time for _get_customer_queue: 0.00029540061950683594
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35ea2c0>
+2024-12-19 15:37:12,223: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'Haircut', 'expected_time': datetime.time(0, 0, 15), 'price': 50}, {'item_name': 'Beard', 'expected_time': datetime.time(0, 0, 15), 'price': 50}]}
+total time for _get_customer_queue: 0.00029540061950683594
+2024-12-19 15:37:12,223: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3564740>
+api response: {'status': 'success', 'data': [{'item_name': 'Haircut', 'expected_time': datetime.time(0, 0, 15), 'price': 50}, {'item_name': 'Beard', 'expected_time': datetime.time(0, 0, 15), 'price': 50}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3564740>
+2024-12-19 15:37:12,225: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'First Customer', 'status': 'waiting', 'customer_id': 5}, {'customer_name': 'customer 2', 'status': 'waiting', 'customer_id': 6}, {'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}, {'customer_name': 'customer 4', 'status': 'waiting', 'customer_id': 8}, {'customer_name': 'customer 5', 'status': 'waiting', 'customer_id': 9}]}
+2024-12-19 15:37:12,229: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:37:12,229: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e8f10>, 'request': <starlette.requests.Request object at 0x7cb3e35e9ab0>, 'user_id': 9, 'shop_id': 6, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e8f10>, 'request': <starlette.requests.Request object at 0x7cb3e35e9ab0>, 'user_id': 9, 'shop_id': 6, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:37:12,231: INFO => wrapper | total time for _get_shop_menu: 0.0017616748809814453
+total time for _get_shop_menu: 0.0017616748809814453
+2024-12-19 15:37:12,231: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3592a10>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3592a10>
+2024-12-19 15:37:12,231: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'Haircut', 'expected_time': datetime.time(0, 0, 15), 'price': 50}, {'item_name': 'Beard', 'expected_time': datetime.time(0, 0, 15), 'price': 50}]}
+api response: {'status': 'success', 'data': [{'item_name': 'Haircut', 'expected_time': datetime.time(0, 0, 15), 'price': 50}, {'item_name': 'Beard', 'expected_time': datetime.time(0, 0, 15), 'price': 50}]}
+2024-12-19 15:40:47,575: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-12-19 15:40:47,575: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+2024-12-19 15:40:47,577: INFO => wrapper | total time for total_otp_request: 0.0019626617431640625
+total time for total_otp_request: 0.0019626617431640625
+2024-12-19 15:40:47,577: INFO => wrapper | response from function: total_otp_request: 0
+response from function: total_otp_request: 0
+2024-12-19 15:40:47,578: INFO => reset_failed_login | resetting failed login count for user_id: 4
+resetting failed login count for user_id: 4
+2024-12-19 15:40:47,580: INFO => wrapper | creating otp for user
+creating otp for user
+2024-12-19 15:40:47,580: INFO => wrapper | create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+create_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+2024-12-19 15:40:47,580: INFO => wrapper | invalidating previously assigned otp(s) for user
+invalidating previously assigned otp(s) for user
+2024-12-19 15:40:47,580: INFO => wrapper | invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+invalidate_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+2024-12-19 15:40:47,581: INFO => wrapper | total time for invalidate_previous_otp: 0.0011556148529052734
+total time for invalidate_previous_otp: 0.0011556148529052734
+2024-12-19 15:40:47,581: INFO => wrapper | response from function: invalidate_previous_otp: None
+response from function: invalidate_previous_otp: None
+2024-12-19 15:40:47,583: INFO => wrapper | total time for create_otp: 0.0031037330627441406
+total time for create_otp: 0.0031037330627441406
+2024-12-19 15:40:47,583: INFO => wrapper | response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7cb3e35c13f0>
+response from function: create_otp: <models.one_time_password.OneTimePasswordModel object at 0x7cb3e35c13f0>
+2024-12-19 15:40:47,583: INFO => wrapper | getting total otp request for the user
+getting total otp request for the user
+2024-12-19 15:40:47,583: INFO => wrapper | total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+total_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a10>, 'user_id': 4}
+2024-12-19 15:40:47,585: INFO => wrapper | total time for total_otp_request: 0.0012624263763427734
+total time for total_otp_request: 0.0012624263763427734
+2024-12-19 15:40:47,585: INFO => wrapper | response from function: total_otp_request: 1
+response from function: total_otp_request: 1
+2024-12-19 15:40:47,591: INFO => create_response | api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+api response: {'status': 'success', 'data': {'otp_attempts_left': 4}}
+2024-12-19 15:40:50,964: INFO => wrapper | validating otp request for the user
+validating otp request for the user
+2024-12-19 15:40:50,965: INFO => wrapper | validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+validate_otp_request; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-12-19 15:40:50,969: INFO => wrapper | getting otp user
+getting otp user
+2024-12-19 15:40:50,970: INFO => wrapper | get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+get_otp_user; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'otp': 123456, 'username': 'hirubhai@rover.info'}
+2024-12-19 15:40:50,974: INFO => wrapper | total time for get_otp_user: 0.0047245025634765625
+total time for get_otp_user: 0.0047245025634765625
+2024-12-19 15:40:50,975: INFO => wrapper | response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x7cb3e3f59660>]
+response from function: get_otp_user: [<models.one_time_password.OneTimePasswordModel object at 0x7cb3e3f59660>]
+2024-12-19 15:40:50,977: INFO => wrapper | deleting previously assigned otp(s) for the user
+deleting previously assigned otp(s) for the user
+2024-12-19 15:40:50,978: INFO => wrapper | delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'user_id': 4}
+delete_previous_otp; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592a40>, 'user_id': 4}
+2024-12-19 15:40:50,980: INFO => wrapper | total time for delete_previous_otp: 0.002291440963745117
+total time for delete_previous_otp: 0.002291440963745117
+2024-12-19 15:40:50,980: INFO => wrapper | response from function: delete_previous_otp: None
+response from function: delete_previous_otp: None
+2024-12-19 15:40:50,980: INFO => wrapper | total time for validate_otp_request: 0.01580500602722168
+total time for validate_otp_request: 0.01580500602722168
+2024-12-19 15:40:50,981: INFO => wrapper | response from function: validate_otp_request: <models.user.UserModel object at 0x7cb3e3f5a4d0>
+response from function: validate_otp_request: <models.user.UserModel object at 0x7cb3e3f5a4d0>
+2024-12-19 15:40:50,986: INFO => create_response | api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTItMTkgMTY6MTA6NTAiLCJleHAiOjE3MzQ2MDQ4NTB9.lgY1FrQ_gyTiMMDp-xnIxhgh8QrNVPhCAFlZqM1tdWg', 'user_id': 4}}
+api response: {'status': 'success', 'data': {'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0IiwiZXhwaXJlc19hdCI6IjIwMjQtMTItMTkgMTY6MTA6NTAiLCJleHAiOjE3MzQ2MDQ4NTB9.lgY1FrQ_gyTiMMDp-xnIxhgh8QrNVPhCAFlZqM1tdWg', 'user_id': 4}}
+2024-12-19 15:40:50,998: INFO => wrapper | getting response
+getting response
+2024-12-19 15:40:50,998: INFO => wrapper | get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593580>, 'request': <starlette.requests.Request object at 0x7cb3e3591bd0>, 'user_id': 4}
+get_user_data; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593580>, 'request': <starlette.requests.Request object at 0x7cb3e3591bd0>, 'user_id': 4}
+2024-12-19 15:40:51,001: INFO => wrapper | total time for get_user_data: 0.002825498580932617
+total time for get_user_data: 0.002825498580932617
+2024-12-19 15:40:51,002: INFO => wrapper | response from function: get_user_data: <core.response_handlers.TSResponse object at 0x7cb3e35936d0>
+response from function: get_user_data: <core.response_handlers.TSResponse object at 0x7cb3e35936d0>
+2024-12-19 15:40:51,002: INFO => create_response | api response: {'status': 'success', 'data': {'user_id': 4, 'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+api response: {'status': 'success', 'data': {'user_id': 4, 'first_name': 'Hiru', 'last_name': 'Bhai', 'email': 'hirubhai@rover.info', 'gender': 'Male', 'contact_number': None}}
+2024-12-19 15:40:52,297: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:40:52,297: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35936d0>, 'request': <starlette.requests.Request object at 0x7cb3e3591a20>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35936d0>, 'request': <starlette.requests.Request object at 0x7cb3e3591a20>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:52,309: INFO => wrapper | total time for _get_shops: 0.011209726333618164
+total time for _get_shops: 0.011209726333618164
+2024-12-19 15:40:52,309: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3f9d000>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3f9d000>
+2024-12-19 15:40:52,309: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:40:52,314: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:40:52,315: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f9d000>, 'request': <starlette.requests.Request object at 0x7cb3e35ebee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f9d000>, 'request': <starlette.requests.Request object at 0x7cb3e35ebee0>, 'user_id': 4, 'role': 'shop_owner', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:52,322: INFO => wrapper | total time for _get_shops: 0.0072405338287353516
+total time for _get_shops: 0.0072405338287353516
+2024-12-19 15:40:52,322: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3513100>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e3513100>
+2024-12-19 15:40:52,322: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:40:53,575: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:40:53,575: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593b80>, 'request': <starlette.requests.Request object at 0x7cb3e2b15090>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593b80>, 'request': <starlette.requests.Request object at 0x7cb3e2b15090>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:53,575: INFO => wrapper | total time for _get_customer_queue: 0.0002753734588623047
+total time for _get_customer_queue: 0.0002753734588623047
+2024-12-19 15:40:53,575: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3565310>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3565310>
+2024-12-19 15:40:53,581: INFO => create_response | api response: {'status': 'success', 'data': []}
+api response: {'status': 'success', 'data': []}
+2024-12-19 15:40:53,582: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:40:53,583: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3513100>, 'request': <starlette.requests.Request object at 0x7cb3e3590d00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3513100>, 'request': <starlette.requests.Request object at 0x7cb3e3590d00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:53,594: INFO => wrapper | getting shops 
+2024-12-19 15:40:53,595: INFO => wrapper | total time for _get_shop_menu: 0.01143956184387207
+getting shops 
+2024-12-19 15:40:53,595: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14550>, 'request': <starlette.requests.Request object at 0x7cb3e3f58dc0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.01143956184387207
+2024-12-19 15:40:53,596: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35938e0>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14550>, 'request': <starlette.requests.Request object at 0x7cb3e3f58dc0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:53,596: INFO => wrapper | total time for _get_customer_queue: 0.0006976127624511719
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35938e0>
+2024-12-19 15:40:53,597: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.0006976127624511719
+2024-12-19 15:40:53,597: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07e60>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07e60>
+2024-12-19 15:40:53,602: INFO => create_response | api response: {'status': 'success', 'data': []}
+api response: {'status': 'success', 'data': []}
+2024-12-19 15:40:53,609: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:40:53,609: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5b490>, 'request': <starlette.requests.Request object at 0x7cb3e3f5b670>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5b490>, 'request': <starlette.requests.Request object at 0x7cb3e3f5b670>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:40:53,614: INFO => wrapper | total time for _get_shop_menu: 0.004287242889404297
+total time for _get_shop_menu: 0.004287242889404297
+2024-12-19 15:40:53,614: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b171f0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b171f0>
+2024-12-19 15:40:53,614: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 15:41:00,712: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:00,712: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593790>, 'request': <starlette.requests.Request object at 0x7cb3e35e9a50>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3593790>, 'request': <starlette.requests.Request object at 0x7cb3e35e9a50>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:00,718: INFO => wrapper | total time for _get_shops: 0.005719184875488281
+total time for _get_shops: 0.005719184875488281
+2024-12-19 15:41:00,718: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c1840>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c1840>
+2024-12-19 15:41:00,719: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:41:00,725: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:00,726: INFO => wrapper | _get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3512920>, 'request': <starlette.requests.Request object at 0x7cb3e35ea3b0>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shops; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3512920>, 'request': <starlette.requests.Request object at 0x7cb3e35ea3b0>, 'user_id': 7, 'role': 'customer', 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:00,732: INFO => wrapper | total time for _get_shops: 0.0061495304107666016
+total time for _get_shops: 0.0061495304107666016
+2024-12-19 15:41:00,733: INFO => wrapper | response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c1840>
+response from function: _get_shops: <core.response_handlers.TSResponse object at 0x7cb3e35c1840>
+2024-12-19 15:41:00,733: INFO => create_response | api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+api response: {'status': 'success', 'data': [{'id': 6, 'shop_name': "Hiren's Shop", 'end_time': datetime.time(17, 0), 'address_line_1': 'Kalasagar', 'address_line_2': 'string', 'city': 'Ahmedabad', 'state': 'GJ', 'zipcode': '45658', 'email': 'hellow@rover.info', 'owner_name': 'Hello World'}, {'id': 8, 'shop_name': "Hiren's Shop3", 'end_time': datetime.time(17, 0), 'address_line_1': 'yvgbh', 'address_line_2': '', 'city': 'v', 'state': 'b', 'zipcode': '88464', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}, {'id': 9, 'shop_name': "Hiren's Shop4", 'end_time': datetime.time(17, 0), 'address_line_1': 'UVN', 'address_line_2': '', 'city': 'yugin', 'state': 'yublk', 'zipcode': '98456', 'email': 'hirubhai@rover.info', 'owner_name': 'Hiru Bhai'}]}
+2024-12-19 15:41:02,167: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:02,168: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1840>, 'request': <starlette.requests.Request object at 0x7cb3e2b15b40>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c1840>, 'request': <starlette.requests.Request object at 0x7cb3e2b15b40>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:02,168: INFO => wrapper | total time for _get_customer_queue: 0.0005867481231689453
+total time for _get_customer_queue: 0.0005867481231689453
+2024-12-19 15:41:02,169: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f06a40>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f06a40>
+2024-12-19 15:41:02,176: INFO => create_response | api response: {'status': 'success', 'data': []}
+api response: {'status': 'success', 'data': []}
+2024-12-19 15:41:02,185: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:02,186: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14f10>, 'request': <starlette.requests.Request object at 0x7cb3e3590d00>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14f10>, 'request': <starlette.requests.Request object at 0x7cb3e3590d00>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:02,191: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:02,194: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c2ce0>, 'request': <starlette.requests.Request object at 0x7cb3e2b14250>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35c2ce0>, 'request': <starlette.requests.Request object at 0x7cb3e2b14250>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:02,194: INFO => wrapper | total time for _get_customer_queue: 0.00039839744567871094
+total time for _get_customer_queue: 0.00039839744567871094
+2024-12-19 15:41:02,195: INFO => wrapper | total time for _get_shop_menu: 0.009505033493041992
+2024-12-19 15:41:02,195: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ecdd0>
+total time for _get_shop_menu: 0.009505033493041992
+2024-12-19 15:41:02,196: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b15f30>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ecdd0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b15f30>
+2024-12-19 15:41:02,198: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 15:41:02,202: INFO => create_response | api response: {'status': 'success', 'data': []}
+api response: {'status': 'success', 'data': []}
+2024-12-19 15:41:02,210: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:02,210: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14370>, 'request': <starlette.requests.Request object at 0x7cb3e2b16ec0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14370>, 'request': <starlette.requests.Request object at 0x7cb3e2b16ec0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:02,214: INFO => wrapper | total time for _get_shop_menu: 0.0034716129302978516
+total time for _get_shop_menu: 0.0034716129302978516
+2024-12-19 15:41:02,214: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b165f0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b165f0>
+2024-12-19 15:41:02,214: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 15:41:03,590: INFO => wrapper | getting response
+getting response
+2024-12-19 15:41:03,590: INFO => wrapper | _add_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b165f0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15f60>, 'shop_data': {'shop_id': '8'}, 'user_id': 7}
+_add_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b165f0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15f60>, 'shop_data': {'shop_id': '8'}, 'user_id': 7}
+2024-12-19 15:41:03,598: INFO => wrapper | total time for _add_customer_queue: 0.007826089859008789
+total time for _add_customer_queue: 0.007826089859008789
+2024-12-19 15:41:03,599: INFO => wrapper | response from function: _add_customer_queue: <core.response_handlers.TSResponse object at 0x7cb3e2b17a90>
+response from function: _add_customer_queue: <core.response_handlers.TSResponse object at 0x7cb3e2b17a90>
+2024-12-19 15:41:03,599: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:03,599: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b165f0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15f60>, 'shop_id': '8', 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b165f0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15f60>, 'shop_id': '8', 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:03,599: INFO => wrapper | total time for _get_customer_queue: 0.0001544952392578125
+total time for _get_customer_queue: 0.0001544952392578125
+2024-12-19 15:41:03,599: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07680>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07680>
+2024-12-19 15:41:03,605: INFO => create_response | api response: {'status': 'success', 'data': <models.customer_queue.CustomerQueueModel object at 0x7cb3e2b14160>}
+api response: {'status': 'success', 'data': <models.customer_queue.CustomerQueueModel object at 0x7cb3e2b14160>}
+2024-12-19 15:41:03,618: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:41:03,619: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b148e0>, 'request': <starlette.requests.Request object at 0x7cb3e2b146d0>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b148e0>, 'request': <starlette.requests.Request object at 0x7cb3e2b146d0>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:41:03,619: INFO => wrapper | total time for _get_customer_queue: 0.0005824565887451172
+total time for _get_customer_queue: 0.0005824565887451172
+2024-12-19 15:41:03,620: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07300>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f07300>
+2024-12-19 15:41:03,629: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:43:19,662: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:43:19,663: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15840>, 'request': <starlette.requests.Request object at 0x7cb3e2b14df0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15840>, 'request': <starlette.requests.Request object at 0x7cb3e2b14df0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:43:19,663: INFO => wrapper | total time for _get_customer_queue: 0.0001347064971923828
+total time for _get_customer_queue: 0.0001347064971923828
+2024-12-19 15:43:19,663: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ed460>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ed460>
+2024-12-19 15:43:19,666: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:43:24,643: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:43:24,644: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16cb0>, 'request': <starlette.requests.Request object at 0x7cb3e2b175e0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16cb0>, 'request': <starlette.requests.Request object at 0x7cb3e2b175e0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:43:24,644: INFO => wrapper | total time for _get_customer_queue: 0.00015997886657714844
+total time for _get_customer_queue: 0.00015997886657714844
+2024-12-19 15:43:24,644: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ed620>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ed620>
+2024-12-19 15:43:24,648: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:44:10,787: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:44:10,787: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b17580>, 'request': <starlette.requests.Request object at 0x7cb3e3591c90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b17580>, 'request': <starlette.requests.Request object at 0x7cb3e3591c90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:44:10,787: INFO => wrapper | total time for _get_customer_queue: 0.00026345252990722656
+total time for _get_customer_queue: 0.00026345252990722656
+2024-12-19 15:44:10,788: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ee6c0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ee6c0>
+2024-12-19 15:44:10,794: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:44:46,615: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:44:46,615: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15480>, 'request': <starlette.requests.Request object at 0x7cb3e3592980>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15480>, 'request': <starlette.requests.Request object at 0x7cb3e3592980>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:44:46,615: INFO => wrapper | total time for _get_customer_queue: 0.00019097328186035156
+total time for _get_customer_queue: 0.00019097328186035156
+2024-12-19 15:44:46,616: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35651c0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35651c0>
+2024-12-19 15:44:46,620: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:44:46,622: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:44:46,622: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14dc0>, 'request': <starlette.requests.Request object at 0x7cb3e2b17a00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14dc0>, 'request': <starlette.requests.Request object at 0x7cb3e2b17a00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:44:46,627: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:44:46,628: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b148b0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15db0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b148b0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15db0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:44:46,628: INFO => wrapper | total time for _get_customer_queue: 9.322166442871094e-05
+total time for _get_customer_queue: 9.322166442871094e-05
+2024-12-19 15:44:46,628: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cb6f0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cb6f0>
+2024-12-19 15:44:46,629: INFO => wrapper | total time for _get_shop_menu: 0.006737470626831055
+total time for _get_shop_menu: 0.006737470626831055
+2024-12-19 15:44:46,630: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35e8610>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35e8610>
+2024-12-19 15:44:46,630: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 15:44:46,631: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:44:46,634: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:44:46,634: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f597e0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15060>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f597e0>, 'request': <starlette.requests.Request object at 0x7cb3e2b15060>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:44:46,637: INFO => wrapper | total time for _get_shop_menu: 0.002803325653076172
+total time for _get_shop_menu: 0.002803325653076172
+2024-12-19 15:44:46,637: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35eacb0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e35eacb0>
+2024-12-19 15:44:46,638: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 15:45:39,743: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:45:39,743: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35eacb0>, 'request': <starlette.requests.Request object at 0x7cb3e2b153c0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35eacb0>, 'request': <starlette.requests.Request object at 0x7cb3e2b153c0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:45:39,743: INFO => wrapper | total time for _get_customer_queue: 0.00015616416931152344
+total time for _get_customer_queue: 0.00015616416931152344
+2024-12-19 15:45:39,743: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c8820>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c8820>
+2024-12-19 15:45:39,746: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:46:28,449: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:46:28,450: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592980>, 'request': <starlette.requests.Request object at 0x7cb3e2b17be0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592980>, 'request': <starlette.requests.Request object at 0x7cb3e2b17be0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:46:28,450: INFO => wrapper | total time for _get_customer_queue: 0.00014662742614746094
+total time for _get_customer_queue: 0.00014662742614746094
+2024-12-19 15:46:28,450: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ecb30>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ecb30>
+2024-12-19 15:46:28,453: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:47:07,926: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:47:07,926: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15330>, 'request': <starlette.requests.Request object at 0x7cb3e2b164d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15330>, 'request': <starlette.requests.Request object at 0x7cb3e2b164d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:47:07,926: INFO => wrapper | total time for _get_customer_queue: 9.655952453613281e-05
+total time for _get_customer_queue: 9.655952453613281e-05
+2024-12-19 15:47:07,927: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cb990>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cb990>
+2024-12-19 15:47:07,930: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:47:07,933: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:47:07,933: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14040>, 'request': <starlette.requests.Request object at 0x7cb3e2b614e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14040>, 'request': <starlette.requests.Request object at 0x7cb3e2b614e0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:47:07,938: INFO => wrapper | getting shops 
+2024-12-19 15:47:07,939: INFO => wrapper | total time for _get_shop_menu: 0.005829572677612305
+getting shops 
+2024-12-19 15:47:07,939: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b17040>, 'request': <starlette.requests.Request object at 0x7cb3e2b62440>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.005829572677612305
+2024-12-19 15:47:07,940: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3591900>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b17040>, 'request': <starlette.requests.Request object at 0x7cb3e2b62440>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:47:07,940: INFO => wrapper | total time for _get_customer_queue: 0.0005388259887695312
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3591900>
+2024-12-19 15:47:07,940: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.0005388259887695312
+2024-12-19 15:47:07,940: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cbb50>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cbb50>
+2024-12-19 15:47:07,944: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 15:47:07,949: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 15:47:07,950: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e89d0>, 'request': <starlette.requests.Request object at 0x7cb3e2b16860>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e35e89d0>, 'request': <starlette.requests.Request object at 0x7cb3e2b16860>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 15:47:07,953: INFO => wrapper | total time for _get_shop_menu: 0.00286865234375
+total time for _get_shop_menu: 0.00286865234375
+2024-12-19 15:47:07,953: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b62620>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b62620>
+2024-12-19 15:47:07,953: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 17:28:42,722: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:28:42,723: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16e60>, 'request': <starlette.requests.Request object at 0x7cb3e2b60cd0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16e60>, 'request': <starlette.requests.Request object at 0x7cb3e2b60cd0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:28:42,723: INFO => wrapper | total time for _get_customer_queue: 0.000457763671875
+total time for _get_customer_queue: 0.000457763671875
+2024-12-19 17:28:42,724: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cba70>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35cba70>
+2024-12-19 17:28:42,735: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:28:42,746: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:28:42,747: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16e90>, 'request': <starlette.requests.Request object at 0x7cb3e2b60c40>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16e90>, 'request': <starlette.requests.Request object at 0x7cb3e2b60c40>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:28:42,747: INFO => wrapper | total time for _get_customer_queue: 0.00041294097900390625
+total time for _get_customer_queue: 0.00041294097900390625
+2024-12-19 17:28:42,748: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c9d20>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c9d20>
+2024-12-19 17:28:42,761: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:30:20,304: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:30:20,304: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62ad0>, 'request': <starlette.requests.Request object at 0x7cb3e2b61120>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62ad0>, 'request': <starlette.requests.Request object at 0x7cb3e2b61120>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:30:20,304: INFO => wrapper | total time for _get_customer_queue: 0.00016617774963378906
+total time for _get_customer_queue: 0.00016617774963378906
+2024-12-19 17:30:20,304: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35eeea0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35eeea0>
+2024-12-19 17:30:20,309: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:34:20,855: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:34:20,855: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15630>, 'request': <starlette.requests.Request object at 0x7cb3e2b15690>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b15630>, 'request': <starlette.requests.Request object at 0x7cb3e2b15690>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:34:20,856: INFO => wrapper | total time for _get_customer_queue: 0.00017595291137695312
+total time for _get_customer_queue: 0.00017595291137695312
+2024-12-19 17:34:20,856: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ca500>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ca500>
+2024-12-19 17:34:20,859: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:34:20,868: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:34:20,869: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b63d30>, 'request': <starlette.requests.Request object at 0x7cb3e2b63ca0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b63d30>, 'request': <starlette.requests.Request object at 0x7cb3e2b63ca0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:34:20,869: INFO => wrapper | total time for _get_customer_queue: 0.00022673606872558594
+total time for _get_customer_queue: 0.00022673606872558594
+2024-12-19 17:34:20,869: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c86d0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c86d0>
+2024-12-19 17:34:20,872: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:34:20,873: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:34:20,874: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b91840>, 'request': <starlette.requests.Request object at 0x7cb3e2b63b50>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b91840>, 'request': <starlette.requests.Request object at 0x7cb3e2b63b50>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:34:20,877: INFO => wrapper | total time for _get_shop_menu: 0.003843069076538086
+total time for _get_shop_menu: 0.003843069076538086
+2024-12-19 17:34:20,878: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3592aa0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e3592aa0>
+2024-12-19 17:34:20,878: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 17:34:20,882: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:34:20,883: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592aa0>, 'request': <starlette.requests.Request object at 0x7cb3e2b61f00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3592aa0>, 'request': <starlette.requests.Request object at 0x7cb3e2b61f00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:34:20,886: INFO => wrapper | total time for _get_shop_menu: 0.003420591354370117
+total time for _get_shop_menu: 0.003420591354370117
+2024-12-19 17:34:20,886: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b62410>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7cb3e2b62410>
+2024-12-19 17:34:20,887: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 17:35:40,650: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:35:40,651: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62410>, 'request': <starlette.requests.Request object at 0x7cb3e2b62950>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62410>, 'request': <starlette.requests.Request object at 0x7cb3e2b62950>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:35:40,651: INFO => wrapper | total time for _get_customer_queue: 0.0005717277526855469
+total time for _get_customer_queue: 0.0005717277526855469
+2024-12-19 17:35:40,652: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c9d90>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35c9d90>
+2024-12-19 17:35:40,660: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:38:42,702: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:38:42,702: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62530>, 'request': <starlette.requests.Request object at 0x7cb3e2b91720>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62530>, 'request': <starlette.requests.Request object at 0x7cb3e2b91720>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:38:42,702: INFO => wrapper | total time for _get_customer_queue: 0.00018286705017089844
+total time for _get_customer_queue: 0.00018286705017089844
+2024-12-19 17:38:42,702: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ec4a0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ec4a0>
+2024-12-19 17:38:42,707: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:38:42,717: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:38:42,717: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b91d20>, 'request': <starlette.requests.Request object at 0x7cb3e2b91db0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b91d20>, 'request': <starlette.requests.Request object at 0x7cb3e2b91db0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:38:42,717: INFO => wrapper | total time for _get_customer_queue: 0.00010895729064941406
+total time for _get_customer_queue: 0.00010895729064941406
+2024-12-19 17:38:42,717: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f06f10>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e3f06f10>
+2024-12-19 17:38:42,724: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:40:20,430: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:40:20,430: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62050>, 'request': <starlette.requests.Request object at 0x7cb3e2b61810>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b62050>, 'request': <starlette.requests.Request object at 0x7cb3e2b61810>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:40:20,430: INFO => wrapper | total time for _get_customer_queue: 9.036064147949219e-05
+total time for _get_customer_queue: 9.036064147949219e-05
+2024-12-19 17:40:20,431: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ec270>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35ec270>
+2024-12-19 17:40:20,434: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:49:35,766: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:49:35,767: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5a380>, 'request': <starlette.requests.Request object at 0x7cb3e2b170d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e3f5a380>, 'request': <starlette.requests.Request object at 0x7cb3e2b170d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:49:35,767: INFO => wrapper | total time for _get_customer_queue: 0.0002002716064453125
+total time for _get_customer_queue: 0.0002002716064453125
+2024-12-19 17:49:35,767: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35efc30>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e35efc30>
+2024-12-19 17:49:35,771: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:55:03,255: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:55:03,256: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14b80>, 'request': <starlette.requests.Request object at 0x7cb3e2b158d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b14b80>, 'request': <starlette.requests.Request object at 0x7cb3e2b158d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:55:03,256: INFO => wrapper | total time for _get_customer_queue: 0.0005867481231689453
+total time for _get_customer_queue: 0.0005867481231689453
+2024-12-19 17:55:03,257: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e2ba4510>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e2ba4510>
+2024-12-19 17:55:03,265: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 17:56:11,016: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 17:56:11,017: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16770>, 'request': <starlette.requests.Request object at 0x7cb3e35c00d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7cb3e2b16770>, 'request': <starlette.requests.Request object at 0x7cb3e35c00d0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 17:56:11,017: INFO => wrapper | total time for _get_customer_queue: 0.0004391670227050781
+total time for _get_customer_queue: 0.0004391670227050781
+2024-12-19 17:56:11,017: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e2ba5620>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7cb3e2ba5620>
+2024-12-19 17:56:11,027: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 18:29:27,370: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 18:29:27,371: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bc580>, 'request': <starlette.requests.Request object at 0x765a53339e40>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bc580>, 'request': <starlette.requests.Request object at 0x765a53339e40>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 18:29:27,372: INFO => wrapper | total time for _get_customer_queue: 0.00048804283142089844
+total time for _get_customer_queue: 0.00048804283142089844
+2024-12-19 18:29:27,372: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a53388270>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a53388270>
+2024-12-19 18:29:27,412: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 18:29:27,413: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 18:29:27,414: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bd030>, 'request': <starlette.requests.Request object at 0x765a533800a0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bd030>, 'request': <starlette.requests.Request object at 0x765a533800a0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 18:29:27,417: INFO => wrapper | total time for _get_shop_menu: 0.0035829544067382812
+total time for _get_shop_menu: 0.0035829544067382812
+2024-12-19 18:29:27,417: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a533806a0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a533806a0>
+2024-12-19 18:29:27,417: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 18:30:42,853: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 18:30:42,854: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5333be20>, 'request': <starlette.requests.Request object at 0x765a533bc460>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5333be20>, 'request': <starlette.requests.Request object at 0x765a533bc460>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 18:30:42,854: INFO => wrapper | total time for _get_customer_queue: 0.0006041526794433594
+total time for _get_customer_queue: 0.0006041526794433594
+2024-12-19 18:30:42,855: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52958970>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52958970>
+2024-12-19 18:30:42,865: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 18:30:48,696: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 18:30:48,696: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a53339ff0>, 'request': <starlette.requests.Request object at 0x765a5296df90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a53339ff0>, 'request': <starlette.requests.Request object at 0x765a5296df90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 18:30:48,696: INFO => wrapper | total time for _get_customer_queue: 0.00020241737365722656
+total time for _get_customer_queue: 0.00020241737365722656
+2024-12-19 18:30:48,696: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959540>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959540>
+2024-12-19 18:30:48,701: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 18:31:01,174: INFO => wrapper | getting response
+getting response
+2024-12-19 18:31:01,175: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296c040>, 'request': <starlette.requests.Request object at 0x765a5333bc70>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296c040>, 'request': <starlette.requests.Request object at 0x765a5333bc70>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+2024-12-19 18:31:01,205: INFO => wrapper | total time for _update_customer_queue: 0.030765295028686523
+total time for _update_customer_queue: 0.030765295028686523
+2024-12-19 18:31:01,206: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x765a533bd030>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x765a533bd030>
+2024-12-19 18:31:01,207: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 18:31:01,207: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296c040>, 'request': <starlette.requests.Request object at 0x765a5333bc70>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296c040>, 'request': <starlette.requests.Request object at 0x765a5333bc70>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 18:31:01,207: INFO => wrapper | total time for _get_customer_queue: 0.0002627372741699219
+total time for _get_customer_queue: 0.0002627372741699219
+2024-12-19 18:31:01,208: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959460>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959460>
+2024-12-19 18:31:01,217: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:10:46,666: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:10:46,667: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296d240>, 'request': <starlette.requests.Request object at 0x765a5296d060>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296d240>, 'request': <starlette.requests.Request object at 0x765a5296d060>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:10:46,667: INFO => wrapper | total time for _get_customer_queue: 0.0005142688751220703
+total time for _get_customer_queue: 0.0005142688751220703
+2024-12-19 20:10:46,668: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a5338b1b0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a5338b1b0>
+2024-12-19 20:10:46,687: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:10:46,696: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:10:46,697: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296fbe0>, 'request': <starlette.requests.Request object at 0x765a5296d090>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a5296fbe0>, 'request': <starlette.requests.Request object at 0x765a5296d090>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:10:46,709: INFO => wrapper | total time for _get_shop_menu: 0.012160062789916992
+total time for _get_shop_menu: 0.012160062789916992
+2024-12-19 20:10:46,710: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a5296cee0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a5296cee0>
+2024-12-19 20:10:46,710: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:10:46,715: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:10:46,716: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a529bd480>, 'request': <starlette.requests.Request object at 0x765a5296f910>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a529bd480>, 'request': <starlette.requests.Request object at 0x765a5296f910>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:10:46,716: INFO => wrapper | total time for _get_customer_queue: 0.0006392002105712891
+total time for _get_customer_queue: 0.0006392002105712891
+2024-12-19 20:10:46,717: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959fc0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x765a52959fc0>
+2024-12-19 20:10:46,731: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:10:46,746: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:10:46,747: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bc280>, 'request': <starlette.requests.Request object at 0x765a5296fc10>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x765a533bc280>, 'request': <starlette.requests.Request object at 0x765a5296fc10>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:10:46,756: INFO => wrapper | total time for _get_shop_menu: 0.009418964385986328
+total time for _get_shop_menu: 0.009418964385986328
+2024-12-19 20:10:46,757: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a529bd360>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x765a529bd360>
+2024-12-19 20:10:46,758: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:11:02,743: INFO => <module> | server started
+server started
+2024-12-19 20:11:02,825: INFO => <module> | server started
+server started
+2024-12-19 20:11:15,664: INFO => wrapper | getting response
+getting response
+2024-12-19 20:11:15,666: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff149bca0>, 'request': <starlette.requests.Request object at 0x7f6ff1499480>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff149bca0>, 'request': <starlette.requests.Request object at 0x7f6ff1499480>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+2024-12-19 20:11:15,763: INFO => wrapper | total time for _update_customer_queue: 0.09718656539916992
+total time for _update_customer_queue: 0.09718656539916992
+2024-12-19 20:11:15,763: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ffa52f760>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ffa52f760>
+2024-12-19 20:11:26,500: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:26,503: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff149bca0>, 'request': <starlette.requests.Request object at 0x7f6ff1499480>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff149bca0>, 'request': <starlette.requests.Request object at 0x7f6ff1499480>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:26,504: INFO => wrapper | total time for _get_customer_queue: 0.0008096694946289062
+total time for _get_customer_queue: 0.0008096694946289062
+2024-12-19 20:11:26,504: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fd700>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fd700>
+2024-12-19 20:11:52,155: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:11:57,718: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:57,719: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306ce0>, 'request': <starlette.requests.Request object at 0x7f6ff13055a0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306ce0>, 'request': <starlette.requests.Request object at 0x7f6ff13055a0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:57,719: INFO => wrapper | total time for _get_customer_queue: 0.0005147457122802734
+total time for _get_customer_queue: 0.0005147457122802734
+2024-12-19 20:11:57,720: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fedc0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fedc0>
+2024-12-19 20:11:57,741: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 20:11:57,763: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:57,766: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1304490>, 'request': <starlette.requests.Request object at 0x7f6ff1306380>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:57,774: INFO => wrapper | getting shops 
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1304490>, 'request': <starlette.requests.Request object at 0x7f6ff1306380>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+getting shops 
+2024-12-19 20:11:57,777: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1307fa0>, 'request': <starlette.requests.Request object at 0x7f6ff1304f70>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1307fa0>, 'request': <starlette.requests.Request object at 0x7f6ff1304f70>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:57,784: INFO => wrapper | total time for _get_customer_queue: 0.0066220760345458984
+total time for _get_customer_queue: 0.0066220760345458984
+2024-12-19 20:11:57,791: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14ffae0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14ffae0>
+2024-12-19 20:11:57,802: INFO => wrapper | total time for _get_shop_menu: 0.036417484283447266
+total time for _get_shop_menu: 0.036417484283447266
+2024-12-19 20:11:57,807: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff158e4a0>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff158e4a0>
+2024-12-19 20:11:57,815: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:11:57,821: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 20:11:57,862: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:57,863: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1305a80>, 'request': <starlette.requests.Request object at 0x7f6ff1306500>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1305a80>, 'request': <starlette.requests.Request object at 0x7f6ff1306500>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:57,885: INFO => wrapper | total time for _get_shop_menu: 0.02132129669189453
+total time for _get_shop_menu: 0.02132129669189453
+2024-12-19 20:11:57,886: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1305990>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1305990>
+2024-12-19 20:11:57,887: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:11:59,830: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:59,832: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13070a0>, 'request': <starlette.requests.Request object at 0x7f6ff133da50>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13070a0>, 'request': <starlette.requests.Request object at 0x7f6ff133da50>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:59,833: INFO => wrapper | total time for _get_customer_queue: 0.0011763572692871094
+total time for _get_customer_queue: 0.0011763572692871094
+2024-12-19 20:11:59,834: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1321620>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1321620>
+2024-12-19 20:11:59,853: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 20:11:59,870: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:59,871: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13046d0>, 'request': <starlette.requests.Request object at 0x7f6ff133e380>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13046d0>, 'request': <starlette.requests.Request object at 0x7f6ff133e380>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:59,882: INFO => wrapper | getting shops 
+2024-12-19 20:11:59,884: INFO => wrapper | total time for _get_shop_menu: 0.012760162353515625
+getting shops 
+2024-12-19 20:11:59,884: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133fd00>, 'request': <starlette.requests.Request object at 0x7f6ff133ed40>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.012760162353515625
+2024-12-19 20:11:59,884: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1307cd0>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133fd00>, 'request': <starlette.requests.Request object at 0x7f6ff133ed40>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:59,885: INFO => wrapper | total time for _get_customer_queue: 0.000629425048828125
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1307cd0>
+2024-12-19 20:11:59,885: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.000629425048828125
+2024-12-19 20:11:59,885: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1321620>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1321620>
+2024-12-19 20:11:59,893: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'waiting', 'customer_id': 7}]}
+2024-12-19 20:11:59,916: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:11:59,916: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e8f0>, 'request': <starlette.requests.Request object at 0x7f6ff133e2c0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e8f0>, 'request': <starlette.requests.Request object at 0x7f6ff133e2c0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:11:59,929: INFO => wrapper | total time for _get_shop_menu: 0.012492179870605469
+total time for _get_shop_menu: 0.012492179870605469
+2024-12-19 20:11:59,930: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133e980>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133e980>
+2024-12-19 20:11:59,931: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:12:20,206: INFO => wrapper | getting response
+getting response
+2024-12-19 20:12:20,208: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306c20>, 'request': <starlette.requests.Request object at 0x7f6ff1306920>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306c20>, 'request': <starlette.requests.Request object at 0x7f6ff1306920>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+2024-12-19 20:12:20,227: INFO => wrapper | total time for _update_customer_queue: 0.018962383270263672
+total time for _update_customer_queue: 0.018962383270263672
+2024-12-19 20:12:20,228: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff14e3a90>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff14e3a90>
+2024-12-19 20:12:20,229: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:20,229: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306c20>, 'request': <starlette.requests.Request object at 0x7f6ff1306920>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1306c20>, 'request': <starlette.requests.Request object at 0x7f6ff1306920>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:20,230: INFO => wrapper | total time for _get_customer_queue: 0.000553131103515625
+total time for _get_customer_queue: 0.000553131103515625
+2024-12-19 20:12:20,230: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13219a0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13219a0>
+2024-12-19 20:12:34,224: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:12:53,597: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:53,598: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133dba0>, 'request': <starlette.requests.Request object at 0x7f6ff133e1a0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133dba0>, 'request': <starlette.requests.Request object at 0x7f6ff133e1a0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:53,599: INFO => wrapper | total time for _get_customer_queue: 0.00045180320739746094
+total time for _get_customer_queue: 0.00045180320739746094
+2024-12-19 20:12:53,599: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1320740>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff1320740>
+2024-12-19 20:12:53,610: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:12:53,619: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:53,624: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1304580>, 'request': <starlette.requests.Request object at 0x7f6ff133fa00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1304580>, 'request': <starlette.requests.Request object at 0x7f6ff133fa00>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:53,644: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:53,648: INFO => wrapper | total time for _get_shop_menu: 0.023378849029541016
+total time for _get_shop_menu: 0.023378849029541016
+2024-12-19 20:12:53,648: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133cc40>, 'request': <starlette.requests.Request object at 0x7f6ff1304310>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133cc40>, 'request': <starlette.requests.Request object at 0x7f6ff1304310>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:53,650: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133c130>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133c130>
+2024-12-19 20:12:53,651: INFO => wrapper | total time for _get_customer_queue: 0.002447366714477539
+2024-12-19 20:12:53,652: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.002447366714477539
+2024-12-19 20:12:53,653: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13215b0>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13215b0>
+2024-12-19 20:12:53,674: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:12:53,718: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:53,719: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13078b0>, 'request': <starlette.requests.Request object at 0x7f6ff133c5b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff13078b0>, 'request': <starlette.requests.Request object at 0x7f6ff133c5b0>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:53,731: INFO => wrapper | total time for _get_shop_menu: 0.011510610580444336
+total time for _get_shop_menu: 0.011510610580444336
+2024-12-19 20:12:53,731: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1307010>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff1307010>
+2024-12-19 20:12:53,732: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:12:55,352: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:55,354: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1305420>, 'request': <starlette.requests.Request object at 0x7f6ff133c2e0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1305420>, 'request': <starlette.requests.Request object at 0x7f6ff133c2e0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:55,355: INFO => wrapper | total time for _get_customer_queue: 0.0009794235229492188
+total time for _get_customer_queue: 0.0009794235229492188
+2024-12-19 20:12:55,356: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fdaf0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fdaf0>
+2024-12-19 20:12:55,372: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:12:55,394: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:55,400: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d390>, 'request': <starlette.requests.Request object at 0x7f6ff133f370>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d390>, 'request': <starlette.requests.Request object at 0x7f6ff133f370>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:55,416: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:55,421: INFO => wrapper | total time for _get_shop_menu: 0.02134537696838379
+2024-12-19 20:12:55,421: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1307c70>, 'request': <starlette.requests.Request object at 0x7f6ff133e680>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.02134537696838379
+2024-12-19 20:12:55,423: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff149ad10>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff1307c70>, 'request': <starlette.requests.Request object at 0x7f6ff133e680>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:55,424: INFO => wrapper | total time for _get_customer_queue: 0.0021457672119140625
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff149ad10>
+2024-12-19 20:12:55,424: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.0021457672119140625
+2024-12-19 20:12:55,425: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fda80>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14fda80>
+2024-12-19 20:12:55,443: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:12:55,469: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:55,471: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133cfd0>, 'request': <starlette.requests.Request object at 0x7f6ff133f370>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133cfd0>, 'request': <starlette.requests.Request object at 0x7f6ff133f370>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:55,486: INFO => wrapper | total time for _get_shop_menu: 0.015499114990234375
+total time for _get_shop_menu: 0.015499114990234375
+2024-12-19 20:12:55,488: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133d570>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7f6ff133d570>
+2024-12-19 20:12:55,489: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:12:57,691: INFO => wrapper | getting response
+getting response
+2024-12-19 20:12:57,692: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e2c0>, 'request': <starlette.requests.Request object at 0x7f6ff133dbd0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e2c0>, 'request': <starlette.requests.Request object at 0x7f6ff133dbd0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+2024-12-19 20:12:57,713: INFO => wrapper | total time for _update_customer_queue: 0.020887374877929688
+total time for _update_customer_queue: 0.020887374877929688
+2024-12-19 20:12:57,714: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff133d330>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff133d330>
+2024-12-19 20:12:57,714: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:12:57,715: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e2c0>, 'request': <starlette.requests.Request object at 0x7f6ff133dbd0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133e2c0>, 'request': <starlette.requests.Request object at 0x7f6ff133dbd0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:12:57,716: INFO => wrapper | total time for _get_customer_queue: 0.0005743503570556641
+total time for _get_customer_queue: 0.0005743503570556641
+2024-12-19 20:12:57,716: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13220a0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff13220a0>
+2024-12-19 20:13:01,803: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:13:23,958: INFO => wrapper | getting response
+getting response
+2024-12-19 20:13:23,958: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d690>, 'request': <starlette.requests.Request object at 0x7f6ff1346aa0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d690>, 'request': <starlette.requests.Request object at 0x7f6ff1346aa0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+2024-12-19 20:13:23,968: INFO => wrapper | total time for _update_customer_queue: 0.009218454360961914
+total time for _update_customer_queue: 0.009218454360961914
+2024-12-19 20:13:23,968: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff1306410>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7f6ff1306410>
+2024-12-19 20:13:23,968: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:13:23,969: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d690>, 'request': <starlette.requests.Request object at 0x7f6ff1346aa0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7f6ff133d690>, 'request': <starlette.requests.Request object at 0x7f6ff1346aa0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:13:23,969: INFO => wrapper | total time for _get_customer_queue: 0.00023221969604492188
+total time for _get_customer_queue: 0.00023221969604492188
+2024-12-19 20:13:23,969: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14ffca0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7f6ff14ffca0>
+2024-12-19 20:13:33,207: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:13:44,318: INFO => <module> | server started
+server started
+2024-12-19 20:13:50,684: INFO => wrapper | getting response
+getting response
+2024-12-19 20:13:50,685: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c8b0>, 'request': <starlette.requests.Request object at 0x7e1d3084f820>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c8b0>, 'request': <starlette.requests.Request object at 0x7e1d3084f820>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+2024-12-19 20:13:50,721: INFO => wrapper | total time for _update_customer_queue: 0.03605937957763672
+total time for _update_customer_queue: 0.03605937957763672
+2024-12-19 20:13:50,721: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d30892620>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d30892620>
+2024-12-19 20:13:50,721: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:13:50,721: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c8b0>, 'request': <starlette.requests.Request object at 0x7e1d3084f820>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c8b0>, 'request': <starlette.requests.Request object at 0x7e1d3084f820>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:13:50,722: INFO => wrapper | total time for _get_customer_queue: 0.00015234947204589844
+total time for _get_customer_queue: 0.00015234947204589844
+2024-12-19 20:13:50,722: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d3089a650>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d3089a650>
+2024-12-19 20:13:50,730: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:14:02,285: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:02,285: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d30893790>, 'request': <starlette.requests.Request object at 0x7e1d3073fe20>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d30893790>, 'request': <starlette.requests.Request object at 0x7e1d3073fe20>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:02,286: INFO => wrapper | total time for _get_customer_queue: 0.0005044937133789062
+total time for _get_customer_queue: 0.0005044937133789062
+2024-12-19 20:14:02,286: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d3089b920>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d3089b920>
+2024-12-19 20:14:02,296: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:14:02,302: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:02,305: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307acfd0>, 'request': <starlette.requests.Request object at 0x7e1d307aca90>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307acfd0>, 'request': <starlette.requests.Request object at 0x7e1d307aca90>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:02,322: INFO => wrapper | getting shops 
+2024-12-19 20:14:02,325: INFO => wrapper | total time for _get_shop_menu: 0.019236087799072266
+getting shops 
+2024-12-19 20:14:02,325: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307ad2a0>, 'request': <starlette.requests.Request object at 0x7e1d307ae410>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.019236087799072266
+2024-12-19 20:14:02,326: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307ada20>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307ad2a0>, 'request': <starlette.requests.Request object at 0x7e1d307ae410>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:02,326: INFO => wrapper | total time for _get_customer_queue: 0.0013225078582763672
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307ada20>
+2024-12-19 20:14:02,327: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.0013225078582763672
+2024-12-19 20:14:02,328: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b5460>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b5460>
+2024-12-19 20:14:02,338: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:14:02,353: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:02,354: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e320>, 'request': <starlette.requests.Request object at 0x7e1d3073e980>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e320>, 'request': <starlette.requests.Request object at 0x7e1d3073e980>, 'user_id': 4, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:02,364: INFO => wrapper | total time for _get_shop_menu: 0.010481595993041992
+total time for _get_shop_menu: 0.010481595993041992
+2024-12-19 20:14:02,365: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307ac070>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307ac070>
+2024-12-19 20:14:02,366: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:14:04,128: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:04,129: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307ac070>, 'request': <starlette.requests.Request object at 0x7e1d307aca90>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307ac070>, 'request': <starlette.requests.Request object at 0x7e1d307aca90>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:04,129: INFO => wrapper | total time for _get_customer_queue: 0.0004429817199707031
+total time for _get_customer_queue: 0.0004429817199707031
+2024-12-19 20:14:04,130: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b51c0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b51c0>
+2024-12-19 20:14:04,136: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:14:04,143: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:04,147: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307aeef0>, 'request': <starlette.requests.Request object at 0x7e1d307acbb0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307aeef0>, 'request': <starlette.requests.Request object at 0x7e1d307acbb0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:04,156: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:04,159: INFO => wrapper | total time for _get_shop_menu: 0.011947870254516602
+2024-12-19 20:14:04,159: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afe20>, 'request': <starlette.requests.Request object at 0x7e1d307ae3b0>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+total time for _get_shop_menu: 0.011947870254516602
+2024-12-19 20:14:04,160: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d3073f880>
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afe20>, 'request': <starlette.requests.Request object at 0x7e1d307ae3b0>, 'shop_id': 8, 'user_id': 7, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:04,161: INFO => wrapper | total time for _get_customer_queue: 0.0017743110656738281
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d3073f880>
+2024-12-19 20:14:04,161: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+total time for _get_customer_queue: 0.0017743110656738281
+2024-12-19 20:14:04,162: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b5230>
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b5230>
+2024-12-19 20:14:04,173: INFO => create_response | api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+api response: {'status': 'success', 'data': [{'customer_name': 'customer 3', 'status': 'in_progress', 'customer_id': 7}]}
+2024-12-19 20:14:04,186: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:04,187: INFO => wrapper | _get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307acf10>, 'request': <starlette.requests.Request object at 0x7e1d307acdc0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_shop_menu; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307acf10>, 'request': <starlette.requests.Request object at 0x7e1d307acdc0>, 'user_id': 7, 'shop_id': 8, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:04,197: INFO => wrapper | total time for _get_shop_menu: 0.009994745254516602
+total time for _get_shop_menu: 0.009994745254516602
+2024-12-19 20:14:04,197: INFO => wrapper | response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307afd90>
+response from function: _get_shop_menu: <core.response_handlers.TSResponse object at 0x7e1d307afd90>
+2024-12-19 20:14:04,198: INFO => create_response | api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+api response: {'status': 'success', 'data': [{'item_name': 'adsfa', 'expected_time': datetime.time(0, 5), 'price': 50}, {'item_name': 'afsd', 'expected_time': datetime.time(10, 0), 'price': 45}]}
+2024-12-19 20:14:08,007: INFO => wrapper | getting response
+getting response
+2024-12-19 20:14:08,008: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afd90>, 'request': <starlette.requests.Request object at 0x7e1d307ae860>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afd90>, 'request': <starlette.requests.Request object at 0x7e1d307ae860>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+2024-12-19 20:14:08,023: INFO => wrapper | total time for _update_customer_queue: 0.014833211898803711
+total time for _update_customer_queue: 0.014833211898803711
+2024-12-19 20:14:08,023: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ac5e0>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ac5e0>
+2024-12-19 20:14:08,024: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:08,024: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afd90>, 'request': <starlette.requests.Request object at 0x7e1d307ae860>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d307afd90>, 'request': <starlette.requests.Request object at 0x7e1d307ae860>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:08,024: INFO => wrapper | total time for _get_customer_queue: 0.00030922889709472656
+total time for _get_customer_queue: 0.00030922889709472656
+2024-12-19 20:14:08,024: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b4eb0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b4eb0>
+2024-12-19 20:14:08,033: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:14:10,344: INFO => wrapper | getting response
+getting response
+2024-12-19 20:14:10,344: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073d4b0>, 'request': <starlette.requests.Request object at 0x7e1d3073d090>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073d4b0>, 'request': <starlette.requests.Request object at 0x7e1d3073d090>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.IN_PROGRESS: 'in_progress'>), 'user_id': 4}
+2024-12-19 20:14:10,357: INFO => wrapper | total time for _update_customer_queue: 0.013326644897460938
+total time for _update_customer_queue: 0.013326644897460938
+2024-12-19 20:14:10,358: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ad750>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ad750>
+2024-12-19 20:14:10,358: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:10,359: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073d4b0>, 'request': <starlette.requests.Request object at 0x7e1d3073d090>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073d4b0>, 'request': <starlette.requests.Request object at 0x7e1d3073d090>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:10,359: INFO => wrapper | total time for _get_customer_queue: 0.0003159046173095703
+total time for _get_customer_queue: 0.0003159046173095703
+2024-12-19 20:14:10,360: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b46d0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b46d0>
+2024-12-19 20:14:10,369: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:14:11,943: INFO => wrapper | getting response
+getting response
+2024-12-19 20:14:11,944: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e200>, 'request': <starlette.requests.Request object at 0x7e1d3073d4b0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e200>, 'request': <starlette.requests.Request object at 0x7e1d3073d4b0>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.WAITING: 'waiting'>), 'user_id': 4}
+2024-12-19 20:14:11,955: INFO => wrapper | total time for _update_customer_queue: 0.011668205261230469
+total time for _update_customer_queue: 0.011668205261230469
+2024-12-19 20:14:11,956: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307afeb0>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307afeb0>
+2024-12-19 20:14:11,956: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:11,956: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e200>, 'request': <starlette.requests.Request object at 0x7e1d3073d4b0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3073e200>, 'request': <starlette.requests.Request object at 0x7e1d3073d4b0>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:11,957: INFO => wrapper | total time for _get_customer_queue: 0.0002434253692626953
+total time for _get_customer_queue: 0.0002434253692626953
+2024-12-19 20:14:11,957: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b46d0>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b46d0>
+2024-12-19 20:14:11,965: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
+2024-12-19 20:14:18,564: INFO => wrapper | getting response
+getting response
+2024-12-19 20:14:18,565: INFO => wrapper | _update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c670>, 'request': <starlette.requests.Request object at 0x7e1d3073ee90>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+_update_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c670>, 'request': <starlette.requests.Request object at 0x7e1d3073ee90>, 'customer_data': UpdateStatus(shop_id=8, customer_id=7, status=<CustomerStatusEnum.COMPLETED: 'completed'>), 'user_id': 4}
+2024-12-19 20:14:18,578: INFO => wrapper | total time for _update_customer_queue: 0.013318777084350586
+total time for _update_customer_queue: 0.013318777084350586
+2024-12-19 20:14:18,579: INFO => wrapper | response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ad000>
+response from function: _update_customer_queue: <core.response_handlers.TSResponse object at 0x7e1d307ad000>
+2024-12-19 20:14:18,579: INFO => wrapper | getting shops 
+getting shops 
+2024-12-19 20:14:18,579: INFO => wrapper | _get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c670>, 'request': <starlette.requests.Request object at 0x7e1d3073ee90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+_get_customer_queue; args: (), kwargs: {'db': <sqlalchemy.orm.session.Session object at 0x7e1d3084c670>, 'request': <starlette.requests.Request object at 0x7e1d3073ee90>, 'shop_id': 8, 'user_id': 4, 'filters': None, 'sort_fields': None, 'paginate': None}
+2024-12-19 20:14:18,580: INFO => wrapper | total time for _get_customer_queue: 0.0003399848937988281
+total time for _get_customer_queue: 0.0003399848937988281
+2024-12-19 20:14:18,580: INFO => wrapper | response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b4190>
+response from function: _get_customer_queue: <coroutine object _get_customer_queue at 0x7e1d307b4190>
+2024-12-19 20:14:18,590: INFO => create_response | api response: {'status': 'success', 'data': {}}
+api response: {'status': 'success', 'data': {}}
