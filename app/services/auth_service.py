@@ -11,6 +11,7 @@ from core import TSServerError, api_log, TSResponse
 from dao.otp import validate_otp_request
 from dao.user import create_user_dao, validate_user_login_and_create_otp
 from models import UserModel
+from schemas import BearerTokenSchema
 from schemas.api_schemas import CreateUser, ValidateOTP
 from utilities.methods import validate_strong_password, create_access_token
 
@@ -159,11 +160,23 @@ def authenticate_user(*args,**kwargs):
 
         # Add 30 minutes
         expires_at = current_time + timedelta(minutes=30)
-        expires_at = expires_at.strftime("%Y-%m-%d %H:%M:%S")
+        expires_at_str = expires_at.strftime("%Y-%m-%d %H:%M:%S")
         access_token = create_access_token(
             data={"sub": str(user.id),
-                  "expires_at": expires_at}, expires_delta=access_token_expires
+                  "expires_at": expires_at_str}, expires_delta=access_token_expires
         )
+
+
+        # Split the JWT
+        header, payload, signature = access_token.split(".")
+
+        bt_obj = BearerTokenSchema(user_id=user.id,
+                                   access_token=payload,
+                                   expires_on=expires_at)
+
+        crud.BearerToken.delete_previous_tokens(db=db,user_id=user.id)
+        crud.BearerToken.create(db=db,record=bt_obj)
+
 
         db.commit()
 

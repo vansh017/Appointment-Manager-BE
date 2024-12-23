@@ -9,3 +9,4 @@ from models.catalog import CatalogModel
 from models.address import AddressModel
 from models.contact_details import ContactDetailsModel
 from models.shop_master import ShopMasterModel
+from models.bearer_token import BearerTokenModel

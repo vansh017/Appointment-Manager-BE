@@ -7,3 +7,4 @@ from crud.shop import Shop
 from crud.user_shop import UserShop
 from crud.catalog import Catalog
 from crud.customer_queue import CustomerQueue
+from crud.bearer_token import BearerToken
