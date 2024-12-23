@@ -124,6 +124,35 @@ class CRUDUser(CRUDBase[UserModel, UserSchema, UserSchema]):
             api_log.exception(f"exception in reset_invalid_otp: {e}")
             raise TSServerError()
 
+    @classmethod
+    def update_invalid_otp_count(cls, db: Session, user_id):
+        """
+        Updates invalid otp attempts for the user
+        :param db:
+        :param user_id:
+        :return:
+        """
+        try:
+            user: UserModel = db.get(UserModel, user_id)
+
+            if not user:
+                return None
+
+            user.invalid_otp_count = user.invalid_otp_count + 1 \
+                if user.invalid_otp_count is not None else 0
+
+            db.flush([user])
+
+            invalid_otp_count = user.invalid_otp_count
+
+            return invalid_otp_count
+
+        except TSServerError as err:
+            raise err
+        except Exception as e:
+            api_log.exception(f"exception in update_invalid_otp:{e}")
+            raise TSServerError()
+
 
 
 User = CRUDUser(UserModel)

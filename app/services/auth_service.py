@@ -37,10 +37,10 @@ def create_user(*args, **kwargs):
         expires_at = current_time + timedelta(minutes=30)
         expires_at = expires_at.strftime("%Y-%m-%d %H:%M:%S")
         user : UserModel = create_user_dao(db,user_data)
-        access_token = create_access_token(
-            data={"sub": str(user.id),
-                  "expires_at": expires_at }, expires_delta=access_token_expires
-        )
+        # access_token = create_access_token(
+        #     data={"sub": str(user.id),
+        #           "expires_at": expires_at }, expires_delta=access_token_expires
+        # )
         db.commit()
         return {"user_id": user.id}
 
