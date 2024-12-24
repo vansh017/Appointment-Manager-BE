@@ -7,7 +7,7 @@ from constants import OpenApiTags
 from api.api_v1.deps import get_db
 from core import api_log, create_response, create_error_response, TSServerError
 from schemas.api_schemas import CreateUser, ValidateOTP
-from services.auth_service import create_user, login_user, authenticate_user
+from services.auth_service import create_user, login_user, authenticate_user, revoke_token
 
 auth = APIRouter(
     prefix="/auth",
@@ -85,6 +85,31 @@ def api_authenticate_user(*, request: Request,
     try:
 
         response = authenticate_user(request=request, db=db, user=user)
+
+        return create_response(data=response.data)
+    except TSServerError as err:
+        return create_error_response(status_code=err.status_code, err_dict=err.__dict__())
+    except Exception as e:
+        api_log.error(f"exception in authenticating user: {e}", exc_info=True)
+        return create_error_response(TSServerError.INTERNAL_SV_ERROR)
+
+
+@auth.post("/revoke", name="Validates OTP for the user",
+           description="API Validates OTP for the user")
+def api_authenticate_user(*, request: Request,
+                          access_token = Body(),
+                          db: Session = Depends(get_db)):
+    """
+    Login route for user -- only implicit grant is supported here
+    User has to reset its password on entering wrong otp for 5 times
+    :param access_token:
+    :param request:
+    :param db:
+    :return:
+    """
+    try:
+
+        response = revoke_token(request=request, db=db, access_token=access_token)
 
         return create_response(data=response.data)
     except TSServerError as err:

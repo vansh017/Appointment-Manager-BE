@@ -15,7 +15,7 @@ class BearerTokenModel(Base):
     access_token = Column(LONGTEXT, unique=True, nullable=False)
     refresh_token = Column(VARCHAR(length=255), nullable=True, unique=True)
     expires_on = Column(DateTime, nullable=False)
-    is_revoked = Column(Boolean, default=False, nullable=False)
+    is_revoked: Column[bool] = Column(Boolean, default=False, nullable=False)
     state = Column(VARCHAR(length=255), nullable=True)
     created_on = Column(DateTime, nullable=False, default=get_current_date_time())
 

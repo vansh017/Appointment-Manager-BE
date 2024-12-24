@@ -6,6 +6,7 @@ from fastapi import Request
 from sqlalchemy.orm import Session
 
 import crud
+import dao
 from constants import ACCESS_TOKEN_EXPIRE_MINUTES, MAX_OTP_REQUEST_PER_HR
 from core import TSServerError, api_log, TSResponse
 from dao.otp import validate_otp_request
@@ -189,3 +190,28 @@ def authenticate_user(*args,**kwargs):
     except Exception as e:
         api_log.error(f"failed to authenticate user: {e}", exc_info=True)
         raise TSServerError()
+
+
+def revoke_token(*args, **kwargs):
+    """
+
+    :param args:
+    :param kwargs:
+    :return:
+    """
+    try:
+        db: Session = kwargs["db"]
+        access_token = kwargs['access_token']
+
+        dao.revoke_token_process(db=db,token=access_token)
+
+        db.commit()
+
+        return TSResponse({})
+
+    except TSServerError as err:
+        raise err
+    except Exception as e:
+        api_log.error(f"revoke_token {e}", exc_info=True)
+        raise TSServerError()
+
